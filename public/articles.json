@@ -1,36 +1,5 @@
 {
-  "sources": [
-    {
-      "name": "McKinsey",
-      "rss": "https://www.mckinsey.com/insights/rss"
-    },
-    {
-      "name": "HBR",
-      "rss": "https://feeds.harvardbusiness.org/harvardbusiness"
-    },
-    {
-      "name": "MIT Sloan",
-      "rss": "https://sloanreview.mit.edu/feed/"
-    },
-    {
-      "name": "Gartner",
-      "rss": "https://www.gartner.com/en/newsroom/rss"
-    },
-    {
-      "name": "World Economic Forum",
-      "rss": "https://www.weforum.org/rss.xml"
-    },
-    {
-      "name": "Deloitte",
-      "rss": "https://www2.deloitte.com/us/en/rss.xml"
-    }
-  ],
-  "topics": {
-    "AI": ["AI", "artificial intelligence", "machine learning", "LLM", "generative", "automation", "GPT", "deep learning", "neural", "gen AI"],
-    "금융": ["finance", "financial", "banking", "investment", "capital", "fintech", "asset", "revenue", "economic", "market", "fund"],
-    "IT": ["technology", "digital", "cloud", "software", "infrastructure", "data", "platform", "SaaS", "tech", "computing"],
-    "컨설팅": ["strategy", "consulting", "transformation", "operations", "management", "leadership", "organization", "performance"],
-    "정보보안": ["cybersecurity", "security", "breach", "threat", "ransomware", "vulnerability", "CISO", "hacking", "malware", "attack"],
-    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "data governance"]
-  }
+  "updated_at": "2026-06-11T08:54:09.472968+00:00",
+  "total": 0,
+  "articles": []
 }
