@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "name": "McKinsey",
+      "rss": "https://www.mckinsey.com/rss/insights.xml"
+    },
+    {
+      "name": "BCG",
+      "rss": "https://www.bcg.com/rss/BCGInsights.xml"
+    },
+    {
+      "name": "HBR",
+      "rss": "https://hbr.org/resources/rss/rss.xml"
+    },
+    {
+      "name": "Bain",
+      "rss": "https://www.bain.com/rss/"
+    },
+    {
+      "name": "Deloitte",
+      "rss": "https://www2.deloitte.com/us/en/rss.xml"
+    },
+    {
+      "name": "Gartner",
+      "rss": "https://www.gartner.com/en/newsroom/rss"
+    }
+  ],
+  "topics": {
+    "AI": [
+      "AI", "artificial intelligence", "machine learning", "LLM", "generative AI",
+      "automation", "GPT", "deep learning", "neural", "ChatGPT", "algorithm",
+      "intelligent", "gen AI", "foundation model"
+    ],
+    "금융": [
+      "finance", "financial", "banking", "investment", "capital", "fintech",
+      "asset", "revenue", "economic", "market", "fund", "portfolio",
+      "wealth", "credit", "insurance", "payments", "monetary"
+    ],
+    "IT": [
+      "technology", "digital", "cloud", "software", "infrastructure",
+      "data", "platform", "SaaS", "API", "DevOps", "architecture",
+      "tech", "IT", "computing", "database", "network", "system"
+    ],
+    "컨설팅": [
+      "strategy", "consulting", "transformation", "operations", "management",
+      "leadership", "organization", "performance", "efficiency", "advisory",
+      "business model", "restructuring", "M&A", "merger", "acquisition"
+    ],
+    "정보보안": [
+      "cybersecurity", "security", "breach", "threat", "ransomware",
+      "vulnerability", "CISO", "hacking", "malware", "zero-day",
+      "endpoint", "firewall", "SOC", "incident", "attack", "phishing"
+    ],
+    "개인정보보호": [
+      "privacy", "GDPR", "data protection", "compliance", "regulation",
+      "personal data", "CCPA", "consent", "data governance", "anonymization",
+      "PII", "data privacy", "regulatory", "PDPA"
+    ]
+  }
+}
