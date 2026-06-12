@@ -301,6 +301,7 @@
   <div class="header-top">
     <span class="logo">Insight Feed</span>
     <span class="updated-at" id="updatedAt">불러오는 중...</span>
+    <button onclick="load()" id="refreshBtn" style="background:transparent;border:1px solid #333;border-radius:6px;color:#666;font-size:13px;padding:2px 8px;cursor:pointer;transition:all 0.15s;" onmouseover="this.style.borderColor='#c8f135';this.style.color='#c8f135'" onmouseout="this.style.borderColor='#333';this.style.color='#666'">↻</button>
   </div>
 
   <div class="search-wrap">
@@ -324,7 +325,7 @@
 </main>
 
 <script>
-  const TOPICS = ['전체', 'AI', '금융', 'IT', '컨설팅', '정보보안', '개인정보보호'];
+  const TOPICS = ['전체', 'AI', '금융(국내)', '금융(국제)', 'IT', '컨설팅', '정보보안', '개인정보보호', '정부정책'];
   const SOURCE_COLORS = {
     McKinsey: 'dot-McKinsey',
     BCG: 'dot-BCG',
@@ -372,12 +373,13 @@
 
   function formatDate(iso) {
     const d = new Date(iso);
-    const now = new Date();
-    const diff = Math.floor((now - d) / 86400000);
-    if (diff === 0) return '오늘';
-    if (diff === 1) return '어제';
-    if (diff < 7) return `${diff}일 전`;
-    return d.toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
+    return d.toLocaleDateString('ko-KR', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
   }
 
   function render() {
