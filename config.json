@@ -9,16 +9,20 @@
       "rss": "https://sloanreview.mit.edu/feed/"
     },
     {
-      "name": "Harvard Business Review",
-      "rss": "https://feeds.harvardbusiness.org/harvardbusiness"
-    },
-    {
       "name": "IMF Blog",
       "rss": "https://www.imf.org/en/blogs/rss"
     },
     {
-      "name": "World Economic Forum",
-      "rss": "https://www.weforum.org/agenda/feed/rss/"
+      "name": "한국경제_경제",
+      "rss": "https://www.hankyung.com/feed/economy"
+    },
+    {
+      "name": "한국경제_IT",
+      "rss": "https://www.hankyung.com/feed/it"
+    },
+    {
+      "name": "한국경제_국제",
+      "rss": "https://www.hankyung.com/feed/international"
     },
     {
       "name": "Krebs on Security",
@@ -41,20 +45,17 @@
       "rss": "https://www.technologyreview.com/feed/"
     },
     {
-      "name": "Security Magazine",
-      "rss": "https://www.securitymagazine.com/rss/topic/2236"
-    },
-    {
       "name": "Sophos News",
       "rss": "https://news.sophos.com/en-us/feed/"
     }
   ],
   "topics": {
-    "AI": ["AI", "artificial intelligence", "machine learning", "LLM", "generative", "automation", "GPT", "deep learning", "neural", "gen AI", "foundation model"],
-    "금융": ["finance", "financial", "banking", "investment", "capital", "fintech", "asset", "revenue", "economic", "market", "fund", "monetary", "IMF", "fiscal"],
-    "IT": ["technology", "digital", "cloud", "software", "infrastructure", "data", "platform", "SaaS", "tech", "computing", "semiconductor", "chip"],
-    "컨설팅": ["strategy", "consulting", "transformation", "operations", "management", "leadership", "organization", "performance", "advisory", "McKinsey"],
-    "정보보안": ["cybersecurity", "security", "breach", "threat", "ransomware", "vulnerability", "CISO", "hacking", "malware", "attack", "phishing", "zero-day", "incident"],
-    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "data governance", "PII", "PDPA", "anonymization"]
+    "AI": ["AI", "artificial intelligence", "machine learning", "LLM", "generative", "automation", "GPT", "deep learning", "neural", "gen AI", "인공지능", "생성형"],
+    "금융(국내)": ["한국경제_경제", "금융", "주식", "증권", "부동산", "금리", "환율", "코스피", "한국은행", "기준금리", "투자", "펀드"],
+    "금융(국제)": ["finance", "financial", "banking", "investment", "capital", "fintech", "IMF", "fiscal", "monetary", "fed", "interest rate", "inflation", "GDP"],
+    "IT": ["technology", "digital", "cloud", "software", "infrastructure", "data", "platform", "SaaS", "tech", "computing", "semiconductor", "IT", "반도체", "디지털"],
+    "컨설팅": ["strategy", "consulting", "transformation", "operations", "management", "leadership", "organization", "performance", "advisory", "McKinsey", "전략", "경영"],
+    "정보보안": ["cybersecurity", "security", "breach", "threat", "ransomware", "vulnerability", "CISO", "hacking", "malware", "attack", "phishing", "보안", "해킹"],
+    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "PII", "개인정보", "정보보호", "규정준수"]
   }
 }
