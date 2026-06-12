@@ -9,313 +9,75 @@
   <title>Insight Feed</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap');
-
     :root {
-      --bg: #0a0a0a;
-      --surface: #141414;
-      --border: #222;
-      --text-primary: #f0f0f0;
-      --text-secondary: #888;
-      --text-muted: #555;
-      --accent: #c8f135;
-      --accent-dim: rgba(200, 241, 53, 0.12);
-      --source-mckinsey: #3b82f6;
-      --source-bcg: #22c55e;
-      --source-hbr: #ef4444;
-      --source-bain: #f59e0b;
-      --source-deloitte: #8b5cf6;
-      --source-gartner: #06b6d4;
-      --source-default: #888;
+      --bg: #0a0a0a; --surface: #141414; --border: #222;
+      --text-primary: #f0f0f0; --text-secondary: #888; --text-muted: #555;
+      --accent: #c8f135; --accent-dim: rgba(200,241,53,0.12);
+      --scrap: #f59e0b; --scrap-dim: rgba(245,158,11,0.12);
     }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background: var(--bg);
-      color: var(--text-primary);
-      font-family: 'Inter', -apple-system, sans-serif;
-      min-height: 100dvh;
-      overscroll-behavior: none;
-    }
-
-    /* HEADER */
-    .header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: var(--bg);
-      border-bottom: 1px solid var(--border);
-      padding: 16px 16px 0;
-    }
-
-    .header-top {
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-      margin-bottom: 14px;
-    }
-
-    .logo {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: 22px;
-      color: var(--accent);
-      letter-spacing: -0.5px;
-    }
-
-    .updated-at {
-      font-size: 11px;
-      color: var(--text-muted);
-    }
-
-    /* SEARCH */
-    .search-wrap {
-      position: relative;
-      margin-bottom: 14px;
-    }
-
-    .search-icon {
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--text-muted);
-      font-size: 15px;
-      pointer-events: none;
-    }
-
-    .search-input {
-      width: 100%;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 12px 10px 36px;
-      color: var(--text-primary);
-      font-size: 14px;
-      font-family: 'Inter', sans-serif;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-
-    .search-input:focus {
-      border-color: var(--accent);
-    }
-
-    .search-input::placeholder {
-      color: var(--text-muted);
-    }
-
-    .search-clear {
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: var(--text-muted);
-      border: none;
-      border-radius: 50%;
-      width: 18px;
-      height: 18px;
-      color: var(--bg);
-      font-size: 11px;
-      cursor: pointer;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      line-height: 1;
-    }
-
+    body { background: var(--bg); color: var(--text-primary); font-family: 'Inter', -apple-system, sans-serif; min-height: 100dvh; overscroll-behavior: none; }
+    .header { position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); padding: 16px 16px 0; }
+    .header-top { display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 22px; color: var(--accent); letter-spacing: -0.5px; }
+    .updated-at { font-size: 11px; color: var(--text-muted); }
+    .refresh-btn { margin-left: 4px; background: transparent; border: 1px solid #333; border-radius: 6px; color: #666; font-size: 13px; padding: 2px 8px; cursor: pointer; transition: all 0.15s; }
+    .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .search-wrap { position: relative; margin-bottom: 14px; }
+    .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 15px; pointer-events: none; }
+    .search-input { width: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px 10px 36px; color: var(--text-primary); font-size: 14px; font-family: 'Inter', sans-serif; outline: none; transition: border-color 0.2s; }
+    .search-input:focus { border-color: var(--accent); }
+    .search-input::placeholder { color: var(--text-muted); }
+    .search-clear { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: var(--text-muted); border: none; border-radius: 50%; width: 18px; height: 18px; color: var(--bg); font-size: 11px; cursor: pointer; display: none; align-items: center; justify-content: center; }
     .search-clear.visible { display: flex; }
-
-    /* TABS */
-    .tabs-scroll {
-      display: flex;
-      gap: 6px;
-      overflow-x: auto;
-      padding-bottom: 14px;
-      scrollbar-width: none;
-    }
+    .tabs-scroll { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 14px; scrollbar-width: none; }
     .tabs-scroll::-webkit-scrollbar { display: none; }
-
-    .tab {
-      flex-shrink: 0;
-      padding: 6px 14px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      background: transparent;
-      color: var(--text-secondary);
-      font-size: 13px;
-      font-family: 'Inter', sans-serif;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
-    }
-
-    .tab:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    .tab.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #000;
-      font-weight: 600;
-    }
-
-    /* ARTICLE LIST */
-    .main {
-      padding: 12px 16px 80px;
-    }
-
-    .result-count {
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-bottom: 12px;
-    }
-
-    .article-list {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .article-card {
-      display: block;
-      padding: 14px 0;
-      border-bottom: 1px solid var(--border);
-      text-decoration: none;
-      color: inherit;
-      transition: background 0.1s;
-    }
-
-    .article-card:active {
-      background: var(--surface);
-    }
-
-    .article-meta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 6px;
-    }
-
-    .source-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    .source-name {
-      font-size: 11px;
-      font-weight: 600;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .article-date {
-      font-size: 11px;
-      color: var(--text-muted);
-      margin-left: auto;
-    }
-
-    .article-title {
-      font-size: 15px;
-      font-weight: 500;
-      line-height: 1.45;
-      color: var(--text-primary);
-      margin-bottom: 8px;
-    }
-
-    .topic-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-    }
-
-    .topic-tag {
-      font-size: 10px;
-      font-weight: 600;
-      padding: 2px 8px;
-      border-radius: 10px;
-      background: var(--accent-dim);
-      color: var(--accent);
-      letter-spacing: 0.3px;
-    }
-
-    /* EMPTY STATE */
-    .empty {
-      text-align: center;
-      padding: 60px 20px;
-      color: var(--text-muted);
-    }
-
+    .tab { flex-shrink: 0; padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--text-secondary); font-size: 13px; font-family: 'Inter', sans-serif; font-weight: 500; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+    .tab:hover { border-color: var(--accent); color: var(--accent); }
+    .tab.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600; }
+    .tab.scrap-tab { border-color: var(--scrap); color: var(--scrap); }
+    .tab.scrap-tab:hover { opacity: 0.8; }
+    .tab.scrap-tab.active { background: var(--scrap); border-color: var(--scrap); color: #000; }
+    .main { padding: 12px 16px 80px; }
+    .result-count { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; }
+    .article-item { padding: 14px 0; border-bottom: 1px solid var(--border); transition: opacity 0.2s; }
+    .article-item.read { opacity: 0.38; }
+    .article-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .source-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .source-name { font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .article-date { font-size: 11px; color: var(--text-muted); margin-left: auto; }
+    .article-title { font-size: 15px; font-weight: 500; line-height: 1.45; color: var(--text-primary); margin-bottom: 8px; text-decoration: none; display: block; }
+    .article-title:hover { color: var(--accent); }
+    .article-bottom { display: flex; align-items: center; justify-content: space-between; }
+    .topic-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .topic-tag { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 10px; background: var(--accent-dim); color: var(--accent); letter-spacing: 0.3px; }
+    .article-actions { display: flex; gap: 6px; margin-left: 8px; flex-shrink: 0; }
+    .action-btn { background: transparent; border: 1px solid var(--border); border-radius: 6px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 13px; color: var(--text-muted); transition: all 0.15s; }
+    .action-btn:hover { border-color: var(--text-secondary); color: var(--text-secondary); }
+    .action-btn.read-on { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+    .action-btn.scrap-on { border-color: var(--scrap); color: var(--scrap); background: var(--scrap-dim); }
+    .empty { text-align: center; padding: 60px 20px; color: var(--text-muted); }
     .empty-icon { font-size: 36px; margin-bottom: 12px; }
     .empty-title { font-size: 16px; color: var(--text-secondary); margin-bottom: 6px; }
     .empty-sub { font-size: 13px; }
-
-    /* LOADING */
-    .loading {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 80px 20px;
-      gap: 16px;
-      color: var(--text-muted);
-      font-size: 13px;
-    }
-
-    .spinner {
-      width: 28px;
-      height: 28px;
-      border: 2px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
-
+    .loading { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 80px 20px; gap: 16px; color: var(--text-muted); font-size: 13px; }
+    .spinner { width: 28px; height: 28px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
-
-    /* SOURCE COLORS */
-    .dot-McKinsey { background: var(--source-mckinsey); }
-    .dot-BCG { background: var(--source-bcg); }
-    .dot-HBR { background: var(--source-hbr); }
-    .dot-Bain { background: var(--source-bain); }
-    .dot-Deloitte { background: var(--source-deloitte); }
-    .dot-Gartner { background: var(--source-gartner); }
-    .dot-default { background: var(--source-default); }
-
-    @media (min-width: 640px) {
-      .header { padding: 20px 24px 0; }
-      .main { padding: 16px 24px 80px; }
-      .article-title { font-size: 16px; }
-    }
+    @media (min-width: 640px) { .header { padding: 20px 24px 0; } .main { padding: 16px 24px 80px; } .article-title { font-size: 16px; } }
   </style>
 </head>
 <body>
-
 <div class="header">
   <div class="header-top">
     <span class="logo">Insight Feed</span>
     <span class="updated-at" id="updatedAt">불러오는 중...</span>
-    <button onclick="load()" id="refreshBtn" style="background:transparent;border:1px solid #333;border-radius:6px;color:#666;font-size:13px;padding:2px 8px;cursor:pointer;transition:all 0.15s;" onmouseover="this.style.borderColor='#c8f135';this.style.color='#c8f135'" onmouseout="this.style.borderColor='#333';this.style.color='#666'">↻</button>
+    <button class="refresh-btn" onclick="load()">↻</button>
   </div>
-
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
-    <input
-      class="search-input"
-      id="searchInput"
-      type="search"
-      placeholder="아티클 검색..."
-      autocomplete="off"
-    />
+    <input class="search-input" id="searchInput" type="search" placeholder="아티클 검색..." autocomplete="off" />
     <button class="search-clear" id="searchClear">✕</button>
   </div>
-
   <div class="tabs-scroll" id="tabs"></div>
 </div>
 
@@ -325,25 +87,31 @@
 </main>
 
 <script>
-  const TOPICS = ['전체', 'AI', '금융(국내)', '금융(국제)', 'IT', '컨설팅', '정보보안', '개인정보보호', '정부정책'];
+  const TOPICS = ['전체','AI','금융(국내)','금융(국제)','IT','컨설팅','정보보안','개인정보보호','정부정책','★ 스크랩'];
   const SOURCE_COLORS = {
-    McKinsey: 'dot-McKinsey',
-    BCG: 'dot-BCG',
-    HBR: 'dot-HBR',
-    Bain: 'dot-Bain',
-    Deloitte: 'dot-Deloitte',
-    Gartner: 'dot-Gartner',
+    'McKinsey':'#3b82f6','MIT Sloan':'#22c55e','IMF':'#8b5cf6',
+    'Dark Reading':'#ef4444','Krebs on Security':'#f59e0b','Schneier on Security':'#06b6d4',
+    'The Verge AI':'#ec4899','MIT Tech Review':'#14b8a6','ESET Blog':'#f97316',
+    '한국경제_경제':'#60a5fa','한국경제_IT':'#60a5fa','한국경제_국제':'#60a5fa','정책브리핑':'#64748b',
   };
 
   let allArticles = [];
   let activeTopic = '전체';
   let searchQuery = '';
+  let readSet = new Set(JSON.parse(localStorage.getItem('insight_read') || '[]'));
+  let scrapSet = new Set(JSON.parse(localStorage.getItem('insight_scrap') || '[]'));
 
-  // Build tabs
+  function saveStorage() {
+    localStorage.setItem('insight_read', JSON.stringify([...readSet]));
+    localStorage.setItem('insight_scrap', JSON.stringify([...scrapSet]));
+  }
+
   const tabsEl = document.getElementById('tabs');
   TOPICS.forEach(topic => {
     const btn = document.createElement('button');
-    btn.className = 'tab' + (topic === '전체' ? ' active' : '');
+    const isScrap = topic === '★ 스크랩';
+    btn.className = 'tab' + (topic === '전체' ? ' active' : '') + (isScrap ? ' scrap-tab' : '');
+    btn.dataset.topic = topic;
     btn.textContent = topic;
     btn.onclick = () => {
       activeTopic = topic;
@@ -354,41 +122,47 @@
     tabsEl.appendChild(btn);
   });
 
-  // Search
   const searchInput = document.getElementById('searchInput');
   const searchClear = document.getElementById('searchClear');
-
   searchInput.addEventListener('input', () => {
     searchQuery = searchInput.value.trim().toLowerCase();
     searchClear.classList.toggle('visible', searchQuery.length > 0);
     render();
   });
-
   searchClear.addEventListener('click', () => {
-    searchInput.value = '';
-    searchQuery = '';
-    searchClear.classList.remove('visible');
-    render();
+    searchInput.value = ''; searchQuery = '';
+    searchClear.classList.remove('visible'); render();
   });
 
   function formatDate(iso) {
-    const d = new Date(iso);
-    return d.toLocaleDateString('ko-KR', {
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit'
-    });
+    return new Date(iso).toLocaleDateString('ko-KR', {year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
   }
+
+  function updateScrapTab() {
+    const btn = [...document.querySelectorAll('.tab')].find(t => t.dataset.topic === '★ 스크랩');
+    if (btn) btn.textContent = scrapSet.size > 0 ? `★ 스크랩 ${scrapSet.size}` : '★ 스크랩';
+  }
+
+  function toggleRead(id) {
+    readSet.has(id) ? readSet.delete(id) : readSet.add(id);
+    saveStorage(); render();
+  }
+
+  function toggleScrap(id) {
+    scrapSet.has(id) ? scrapSet.delete(id) : scrapSet.add(id);
+    saveStorage(); updateScrapTab(); render();
+  }
+
+  function markRead(id) { readSet.add(id); saveStorage(); }
 
   function render() {
     const listEl = document.getElementById('articleList');
     const countEl = document.getElementById('resultCount');
-
     let filtered = allArticles;
 
-    if (activeTopic !== '전체') {
+    if (activeTopic === '★ 스크랩') {
+      filtered = filtered.filter(a => scrapSet.has(a.id));
+    } else if (activeTopic !== '전체') {
       filtered = filtered.filter(a => a.topics.includes(activeTopic));
     }
 
@@ -402,55 +176,50 @@
     countEl.textContent = `${filtered.length}개 아티클`;
 
     if (filtered.length === 0) {
-      listEl.innerHTML = `
-        <div class="empty">
-          <div class="empty-icon">🔎</div>
-          <div class="empty-title">결과 없음</div>
-          <div class="empty-sub">다른 키워드나 주제를 선택해보세요</div>
-        </div>`;
+      listEl.innerHTML = activeTopic === '★ 스크랩'
+        ? `<div class="empty"><div class="empty-icon">★</div><div class="empty-title">스크랩한 기사가 없어요</div><div class="empty-sub">기사 옆 ★ 버튼을 눌러 저장하세요</div></div>`
+        : `<div class="empty"><div class="empty-icon">🔎</div><div class="empty-title">결과 없음</div><div class="empty-sub">다른 키워드나 주제를 선택해보세요</div></div>`;
       return;
     }
 
     listEl.innerHTML = filtered.map(a => {
-      const dotClass = SOURCE_COLORS[a.source] || 'dot-default';
+      const isRead = readSet.has(a.id);
+      const isScrapped = scrapSet.has(a.id);
+      const color = SOURCE_COLORS[a.source] || '#666';
       const tags = a.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
       return `
-        <a class="article-card" href="${a.url}" target="_blank" rel="noopener">
+        <div class="article-item${isRead ? ' read' : ''}">
           <div class="article-meta">
-            <span class="source-dot ${dotClass}"></span>
-            <span class="source-name">${a.source}</span>
+            <span class="source-dot" style="background:${color}"></span>
+            <span class="source-name">${a.source.replace(/_/g,' ')}</span>
             <span class="article-date">${formatDate(a.date)}</span>
           </div>
-          <div class="article-title">${a.title}</div>
-          <div class="topic-tags">${tags}</div>
-        </a>`;
+          <a class="article-title" href="${a.url}" target="_blank" rel="noopener" onclick="markRead('${a.id}')">${a.title}</a>
+          <div class="article-bottom">
+            <div class="topic-tags">${tags}</div>
+            <div class="article-actions">
+              <button class="action-btn${isRead?' read-on':''}" onclick="toggleRead('${a.id}')" title="읽음 표시">✓</button>
+              <button class="action-btn${isScrapped?' scrap-on':''}" onclick="toggleScrap('${a.id}')" title="스크랩">★</button>
+            </div>
+          </div>
+        </div>`;
     }).join('');
   }
 
   async function load() {
     const listEl = document.getElementById('articleList');
     listEl.innerHTML = `<div class="loading"><div class="spinner"></div>아티클 불러오는 중...</div>`;
-
     try {
-      const res = await fetch('articles.json');
+      const res = await fetch('articles.json?t=' + Date.now());
       if (!res.ok) throw new Error('fetch failed');
       const data = await res.json();
-
       allArticles = data.articles || [];
-
       const updatedEl = document.getElementById('updatedAt');
-      if (data.updated_at) {
-        updatedEl.textContent = '업데이트 ' + formatDate(data.updated_at);
-      }
-
+      if (data.updated_at) updatedEl.textContent = '업데이트 ' + formatDate(data.updated_at);
+      updateScrapTab();
       render();
     } catch (e) {
-      listEl.innerHTML = `
-        <div class="empty">
-          <div class="empty-icon">⚠️</div>
-          <div class="empty-title">데이터를 불러올 수 없어요</div>
-          <div class="empty-sub">GitHub Actions가 articles.json을 아직 생성하지 않았거나<br>네트워크 오류가 발생했습니다</div>
-        </div>`;
+      listEl.innerHTML = `<div class="empty"><div class="empty-icon">⚠️</div><div class="empty-title">데이터를 불러올 수 없어요</div><div class="empty-sub">GitHub Actions가 articles.json을 아직 생성하지 않았거나<br>네트워크 오류가 발생했습니다</div></div>`;
       document.getElementById('updatedAt').textContent = '';
     }
   }
