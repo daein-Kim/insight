@@ -1,16 +1,24 @@
 {
   "sources": [
     {
+      "name": "McKinsey",
+      "rss": "https://www.mckinsey.com/insights/rss"
+    },
+    {
       "name": "MIT Sloan",
       "rss": "https://sloanreview.mit.edu/feed/"
     },
     {
-      "name": "World Economic Forum",
-      "rss": "https://www.weforum.org/agenda/feed/rss/"
+      "name": "Harvard Business Review",
+      "rss": "https://feeds.harvardbusiness.org/harvardbusiness"
     },
     {
-      "name": "NIST",
-      "rss": "https://www.nist.gov/news-events/cybersecurity/rss.xml"
+      "name": "IMF Blog",
+      "rss": "https://www.imf.org/en/blogs/rss"
+    },
+    {
+      "name": "World Economic Forum",
+      "rss": "https://www.weforum.org/agenda/feed/rss/"
     },
     {
       "name": "Krebs on Security",
@@ -21,24 +29,32 @@
       "rss": "https://www.schneier.com/feed/atom/"
     },
     {
-      "name": "IAPP",
-      "rss": "https://iapp.org/news/rss/"
+      "name": "Dark Reading",
+      "rss": "https://www.darkreading.com/rss.xml"
     },
     {
-      "name": "McKinsey",
-      "rss": "https://www.mckinsey.com/insights/rss"
+      "name": "The Verge AI",
+      "rss": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
     },
     {
-      "name": "Strategy+Business",
-      "rss": "https://www.strategy-business.com/rss"
+      "name": "MIT Tech Review",
+      "rss": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "Security Magazine",
+      "rss": "https://www.securitymagazine.com/rss/topic/2236"
+    },
+    {
+      "name": "Sophos News",
+      "rss": "https://news.sophos.com/en-us/feed/"
     }
   ],
   "topics": {
-    "AI": ["AI", "artificial intelligence", "machine learning", "LLM", "generative", "automation", "GPT", "deep learning", "neural", "gen AI"],
-    "금융": ["finance", "financial", "banking", "investment", "capital", "fintech", "asset", "revenue", "economic", "market", "fund"],
-    "IT": ["technology", "digital", "cloud", "software", "infrastructure", "data", "platform", "SaaS", "tech", "computing"],
-    "컨설팅": ["strategy", "consulting", "transformation", "operations", "management", "leadership", "organization", "performance"],
-    "정보보안": ["cybersecurity", "security", "breach", "threat", "ransomware", "vulnerability", "CISO", "hacking", "malware", "attack"],
-    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "data governance"]
+    "AI": ["AI", "artificial intelligence", "machine learning", "LLM", "generative", "automation", "GPT", "deep learning", "neural", "gen AI", "foundation model"],
+    "금융": ["finance", "financial", "banking", "investment", "capital", "fintech", "asset", "revenue", "economic", "market", "fund", "monetary", "IMF", "fiscal"],
+    "IT": ["technology", "digital", "cloud", "software", "infrastructure", "data", "platform", "SaaS", "tech", "computing", "semiconductor", "chip"],
+    "컨설팅": ["strategy", "consulting", "transformation", "operations", "management", "leadership", "organization", "performance", "advisory", "McKinsey"],
+    "정보보안": ["cybersecurity", "security", "breach", "threat", "ransomware", "vulnerability", "CISO", "hacking", "malware", "attack", "phishing", "zero-day", "incident"],
+    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "data governance", "PII", "PDPA", "anonymization"]
   }
 }
