@@ -2,7 +2,9 @@ import feedparser
 import json
 import os
 from datetime import datetime, timezone
+import time
 import urllib.request
+import socket
 
 with open("config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
@@ -32,17 +34,15 @@ def parse_date(entry):
     return datetime.now(timezone.utc).isoformat()
 
 def fetch_feed(url):
-    headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; RSS Reader)"
-    }
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; RSS Reader)"}
     req = urllib.request.Request(url, headers=headers)
     try:
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=5) as response:
             content = response.read()
         return feedparser.parse(content)
     except Exception as e:
         print(f"  Request error: {e}")
-        return feedparser.parse(url)
+        return None
 
 def fetch_all():
     articles = []
@@ -52,6 +52,9 @@ def fetch_all():
         print(f"Fetching {source['name']}...")
         try:
             feed = fetch_feed(source["rss"])
+            if feed is None:
+                print(f"  -> skipped")
+                continue
             count = 0
             for entry in feed.entries[:30]:
                 url = entry.get("link", "")
@@ -76,6 +79,7 @@ def fetch_all():
             print(f"  -> {count} articles")
         except Exception as e:
             print(f"  Error: {e}")
+        time.sleep(0.3)
 
     articles.sort(key=lambda x: x["date"], reverse=True)
 
