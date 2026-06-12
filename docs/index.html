@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f0f0f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Insight Feed</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap');
+
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --border: #222;
+      --text-primary: #f0f0f0;
+      --text-secondary: #888;
+      --text-muted: #555;
+      --accent: #c8f135;
+      --accent-dim: rgba(200, 241, 53, 0.12);
+      --source-mckinsey: #3b82f6;
+      --source-bcg: #22c55e;
+      --source-hbr: #ef4444;
+      --source-bain: #f59e0b;
+      --source-deloitte: #8b5cf6;
+      --source-gartner: #06b6d4;
+      --source-default: #888;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text-primary);
+      font-family: 'Inter', -apple-system, sans-serif;
+      min-height: 100dvh;
+      overscroll-behavior: none;
+    }
+
+    /* HEADER */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 16px 0;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+    }
+
+    .updated-at {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* SEARCH */
+    .search-wrap {
+      position: relative;
+      margin-bottom: 14px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 15px;
+      pointer-events: none;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px 10px 36px;
+      color: var(--text-primary);
+      font-size: 14px;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--text-muted);
+      border: none;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      color: var(--bg);
+      font-size: 11px;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+
+    .search-clear.visible { display: flex; }
+
+    /* TABS */
+    .tabs-scroll {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 14px;
+      scrollbar-width: none;
+    }
+    .tabs-scroll::-webkit-scrollbar { display: none; }
+
+    .tab {
+      flex-shrink: 0;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .tab:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .tab.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #000;
+      font-weight: 600;
+    }
+
+    /* ARTICLE LIST */
+    .main {
+      padding: 12px 16px 80px;
+    }
+
+    .result-count {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .article-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .article-card {
+      display: block;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.1s;
+    }
+
+    .article-card:active {
+      background: var(--surface);
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .source-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .source-name {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .article-date {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-left: auto;
+    }
+
+    .article-title {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.45;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .topic-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .topic-tag {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: var(--accent-dim);
+      color: var(--accent);
+      letter-spacing: 0.3px;
+    }
+
+    /* EMPTY STATE */
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-icon { font-size: 36px; margin-bottom: 12px; }
+    .empty-title { font-size: 16px; color: var(--text-secondary); margin-bottom: 6px; }
+    .empty-sub { font-size: 13px; }
+
+    /* LOADING */
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      gap: 16px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .spinner {
+      width: 28px;
+      height: 28px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* SOURCE COLORS */
+    .dot-McKinsey { background: var(--source-mckinsey); }
+    .dot-BCG { background: var(--source-bcg); }
+    .dot-HBR { background: var(--source-hbr); }
+    .dot-Bain { background: var(--source-bain); }
+    .dot-Deloitte { background: var(--source-deloitte); }
+    .dot-Gartner { background: var(--source-gartner); }
+    .dot-default { background: var(--source-default); }
+
+    @media (min-width: 640px) {
+      .header { padding: 20px 24px 0; }
+      .main { padding: 16px 24px 80px; }
+      .article-title { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <span class="logo">Insight Feed</span>
+    <span class="updated-at" id="updatedAt">불러오는 중...</span>
+  </div>
+
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input
+      class="search-input"
+      id="searchInput"
+      type="search"
+      placeholder="아티클 검색..."
+      autocomplete="off"
+    />
+    <button class="search-clear" id="searchClear">✕</button>
+  </div>
+
+  <div class="tabs-scroll" id="tabs"></div>
+</div>
+
+<main class="main">
+  <div class="result-count" id="resultCount"></div>
+  <div id="articleList"></div>
+</main>
+
+<script>
+  const TOPICS = ['전체', 'AI', '금융', 'IT', '컨설팅', '정보보안', '개인정보보호'];
+  const SOURCE_COLORS = {
+    McKinsey: 'dot-McKinsey',
+    BCG: 'dot-BCG',
+    HBR: 'dot-HBR',
+    Bain: 'dot-Bain',
+    Deloitte: 'dot-Deloitte',
+    Gartner: 'dot-Gartner',
+  };
+
+  let allArticles = [];
+  let activeTopic = '전체';
+  let searchQuery = '';
+
+  // Build tabs
+  const tabsEl = document.getElementById('tabs');
+  TOPICS.forEach(topic => {
+    const btn = document.createElement('button');
+    btn.className = 'tab' + (topic === '전체' ? ' active' : '');
+    btn.textContent = topic;
+    btn.onclick = () => {
+      activeTopic = topic;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    };
+    tabsEl.appendChild(btn);
+  });
+
+  // Search
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+
+  searchInput.addEventListener('input', () => {
+    searchQuery = searchInput.value.trim().toLowerCase();
+    searchClear.classList.toggle('visible', searchQuery.length > 0);
+    render();
+  });
+
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchQuery = '';
+    searchClear.classList.remove('visible');
+    render();
+  });
+
+  function formatDate(iso) {
+    const d = new Date(iso);
+    const now = new Date();
+    const diff = Math.floor((now - d) / 86400000);
+    if (diff === 0) return '오늘';
+    if (diff === 1) return '어제';
+    if (diff < 7) return `${diff}일 전`;
+    return d.toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
+  }
+
+  function render() {
+    const listEl = document.getElementById('articleList');
+    const countEl = document.getElementById('resultCount');
+
+    let filtered = allArticles;
+
+    if (activeTopic !== '전체') {
+      filtered = filtered.filter(a => a.topics.includes(activeTopic));
+    }
+
+    if (searchQuery) {
+      filtered = filtered.filter(a =>
+        a.title.toLowerCase().includes(searchQuery) ||
+        a.source.toLowerCase().includes(searchQuery)
+      );
+    }
+
+    countEl.textContent = `${filtered.length}개 아티클`;
+
+    if (filtered.length === 0) {
+      listEl.innerHTML = `
+        <div class="empty">
+          <div class="empty-icon">🔎</div>
+          <div class="empty-title">결과 없음</div>
+          <div class="empty-sub">다른 키워드나 주제를 선택해보세요</div>
+        </div>`;
+      return;
+    }
+
+    listEl.innerHTML = filtered.map(a => {
+      const dotClass = SOURCE_COLORS[a.source] || 'dot-default';
+      const tags = a.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
+      return `
+        <a class="article-card" href="${a.url}" target="_blank" rel="noopener">
+          <div class="article-meta">
+            <span class="source-dot ${dotClass}"></span>
+            <span class="source-name">${a.source}</span>
+            <span class="article-date">${formatDate(a.date)}</span>
+          </div>
+          <div class="article-title">${a.title}</div>
+          <div class="topic-tags">${tags}</div>
+        </a>`;
+    }).join('');
+  }
+
+  async function load() {
+    const listEl = document.getElementById('articleList');
+    listEl.innerHTML = `<div class="loading"><div class="spinner"></div>아티클 불러오는 중...</div>`;
+
+    try {
+      const res = await fetch('articles.json');
+      if (!res.ok) throw new Error('fetch failed');
+      const data = await res.json();
+
+      allArticles = data.articles || [];
+
+      const updatedEl = document.getElementById('updatedAt');
+      if (data.updated_at) {
+        updatedEl.textContent = '업데이트 ' + formatDate(data.updated_at);
+      }
+
+      render();
+    } catch (e) {
+      listEl.innerHTML = `
+        <div class="empty">
+          <div class="empty-icon">⚠️</div>
+          <div class="empty-title">데이터를 불러올 수 없어요</div>
+          <div class="empty-sub">GitHub Actions가 articles.json을 아직 생성하지 않았거나<br>네트워크 오류가 발생했습니다</div>
+        </div>`;
+      document.getElementById('updatedAt').textContent = '';
+    }
+  }
+
+  load();
+</script>
+</body>
+</html>
