@@ -99,11 +99,11 @@
   let activeTopic = '전체';
   let searchQuery = '';
   let readSet = new Set(JSON.parse(localStorage.getItem('insight_read') || '[]'));
-  let scrapSet = new Set(JSON.parse(localStorage.getItem('insight_scrap') || '[]'));
+  let scrapMap = JSON.parse(localStorage.getItem('insight_scrap_v2') || '{}');
 
   function saveStorage() {
     localStorage.setItem('insight_read', JSON.stringify([...readSet]));
-    localStorage.setItem('insight_scrap', JSON.stringify([...scrapSet]));
+    localStorage.setItem('insight_scrap_v2', JSON.stringify(scrapMap));
   }
 
   const tabsEl = document.getElementById('tabs');
@@ -140,7 +140,8 @@
 
   function updateScrapTab() {
     const btn = [...document.querySelectorAll('.tab')].find(t => t.dataset.topic === '★ 스크랩');
-    if (btn) btn.textContent = scrapSet.size > 0 ? `★ 스크랩 ${scrapSet.size}` : '★ 스크랩';
+    const count = Object.keys(scrapMap).length;
+    if (btn) btn.textContent = count > 0 ? `★ 스크랩 ${count}` : '★ 스크랩';
   }
 
   function toggleRead(id) {
@@ -148,8 +149,12 @@
     saveStorage(); render();
   }
 
-  function toggleScrap(id) {
-    scrapSet.has(id) ? scrapSet.delete(id) : scrapSet.add(id);
+  function toggleScrap(id, article) {
+    if (scrapMap[id]) {
+      delete scrapMap[id];
+    } else if (article) {
+      scrapMap[id] = { id: article.id, title: article.title, url: article.url, source: article.source, date: article.date, topics: article.topics };
+    }
     saveStorage(); updateScrapTab(); render();
   }
 
@@ -161,7 +166,20 @@
     let filtered = allArticles;
 
     if (activeTopic === '★ 스크랩') {
-      filtered = filtered.filter(a => scrapSet.has(a.id));
+      const scrapIds = Object.keys(scrapMap);
+      const scrapArticles = scrapIds.map(id => scrapMap[id]);
+      filtered = scrapArticles;
+      if (searchQuery) {
+        filtered = filtered.filter(a =>
+          a.title.toLowerCase().includes(searchQuery) ||
+          a.source.toLowerCase().includes(searchQuery)
+        );
+      }
+      countEl.textContent = `${filtered.length}개 스크랩`;
+      listEl.innerHTML = filtered.length === 0
+        ? `<div class="empty"><div class="empty-icon">★</div><div class="empty-title">스크랩한 기사가 없어요</div><div class="empty-sub">기사 옆 ★ 버튼을 눌러 저장하세요</div></div>`
+        : filtered.map(a => renderArticle(a)).join('');
+      return;
     } else if (activeTopic !== '전체') {
       filtered = filtered.filter(a => a.topics.includes(activeTopic));
     }
@@ -176,34 +194,35 @@
     countEl.textContent = `${filtered.length}개 아티클`;
 
     if (filtered.length === 0) {
-      listEl.innerHTML = activeTopic === '★ 스크랩'
-        ? `<div class="empty"><div class="empty-icon">★</div><div class="empty-title">스크랩한 기사가 없어요</div><div class="empty-sub">기사 옆 ★ 버튼을 눌러 저장하세요</div></div>`
-        : `<div class="empty"><div class="empty-icon">🔎</div><div class="empty-title">결과 없음</div><div class="empty-sub">다른 키워드나 주제를 선택해보세요</div></div>`;
+      listEl.innerHTML = `<div class="empty"><div class="empty-icon">🔎</div><div class="empty-title">결과 없음</div><div class="empty-sub">다른 키워드나 주제를 선택해보세요</div></div>`;
       return;
     }
 
-    listEl.innerHTML = filtered.map(a => {
-      const isRead = readSet.has(a.id);
-      const isScrapped = scrapSet.has(a.id);
-      const color = SOURCE_COLORS[a.source] || '#666';
-      const tags = a.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
-      return `
-        <div class="article-item${isRead ? ' read' : ''}">
-          <div class="article-meta">
-            <span class="source-dot" style="background:${color}"></span>
-            <span class="source-name">${a.source.replace(/_/g,' ')}</span>
-            <span class="article-date">${formatDate(a.date)}</span>
+    listEl.innerHTML = filtered.map(a => renderArticle(a)).join('');
+  }
+
+  function renderArticle(a) {
+    const isRead = readSet.has(a.id);
+    const isScrapped = !!scrapMap[a.id];
+    const color = SOURCE_COLORS[a.source] || '#666';
+    const tags = (a.topics || []).map(t => `<span class="topic-tag">${t}</span>`).join('');
+    const articleJson = JSON.stringify(a).replace(/'/g, "\'").replace(/"/g, '&quot;');
+    return `
+      <div class="article-item${isRead ? ' read' : ''}">
+        <div class="article-meta">
+          <span class="source-dot" style="background:${color}"></span>
+          <span class="source-name">${a.source.replace(/_/g,' ')}</span>
+          <span class="article-date">${formatDate(a.date)}</span>
+        </div>
+        <a class="article-title" href="${a.url}" target="_blank" rel="noopener" onclick="markRead('${a.id}')">${a.title}</a>
+        <div class="article-bottom">
+          <div class="topic-tags">${tags}</div>
+          <div class="article-actions">
+            <button class="action-btn${isRead?' read-on':''}" onclick="toggleRead('${a.id}')" title="읽음 표시">✓</button>
+            <button class="action-btn${isScrapped?' scrap-on':''}" onclick="toggleScrap('${a.id}', ${articleJson})" title="스크랩">★</button>
           </div>
-          <a class="article-title" href="${a.url}" target="_blank" rel="noopener" onclick="markRead('${a.id}')">${a.title}</a>
-          <div class="article-bottom">
-            <div class="topic-tags">${tags}</div>
-            <div class="article-actions">
-              <button class="action-btn${isRead?' read-on':''}" onclick="toggleRead('${a.id}')" title="읽음 표시">✓</button>
-              <button class="action-btn${isScrapped?' scrap-on':''}" onclick="toggleScrap('${a.id}')" title="스크랩">★</button>
-            </div>
-          </div>
-        </div>`;
-    }).join('');
+        </div>
+      </div>`;
   }
 
   async function load() {
