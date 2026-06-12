@@ -1,9 +1,97 @@
 {
-  "updated_at": "2026-06-12T02:42:00.324147+00:00",
-  "total": 70,
+  "updated_at": "2026-06-12T02:49:55.953114+00:00",
+  "total": 150,
   "articles": [
     {
-      "id": "4359797817988267533",
+      "id": "2001631247361005333",
+      "title": "Phishing Attack Volume Down 20%, but Risk Still Rising",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-12T00:58:07+00:00"
+    },
+    {
+      "id": "1865123368568283452",
+      "title": "Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
+      "source": "Dark Reading",
+      "topics": [
+        "금융",
+        "정보보안"
+      ],
+      "date": "2026-06-11T18:43:57+00:00"
+    },
+    {
+      "id": "2397517065259616889",
+      "title": "Amazon&#8217;s data centers used 2.5 billion gallons of water last year",
+      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-06-11T17:26:57+00:00"
+    },
+    {
+      "id": "5054239133158242865",
+      "title": "2.4M Impacted by VRChat Breach",
+      "url": "https://www.securitymagazine.com/articles/102365-24m-impacted-by-vrchat-breach",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-11T15:30:00+00:00"
+    },
+    {
+      "id": "315659880434551594",
+      "title": "Identity Crimes Have Become Multi-Layered",
+      "url": "https://www.securitymagazine.com/articles/102364-identity-crimes-have-become-multi-layered",
+      "source": "Security Magazine",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-06-11T15:00:00+00:00"
+    },
+    {
+      "id": "545571233250055609",
+      "title": "Segmentation Works for OT If Operators Are Paying Attention",
+      "url": "https://www.darkreading.com/cybersecurity-operations/segmentation-works-for-ot-if-operators-are-paying-attention",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-11T14:51:48+00:00"
+    },
+    {
+      "id": "2328666655217241743",
+      "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
+      "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-11T12:10:00+00:00"
+    },
+    {
+      "id": "4843555053447078274",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "source": "The Verge AI",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-11T11:40:43+00:00"
+    },
+    {
+      "id": "2733608081945074677",
       "title": "Enhanced License Plate Tracking",
       "url": "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html",
       "source": "Schneier on Security",
@@ -14,7 +102,7 @@
       "date": "2026-06-11T11:01:19+00:00"
     },
     {
-      "id": "928668357408514939",
+      "id": "8421050205044365309",
       "title": "Agentic AI: What Leaders Wish They Knew Sooner",
       "url": "https://sloanreview.mit.edu/video/agentic-ai-what-leaders-wish-they-knew-sooner/",
       "source": "MIT Sloan",
@@ -25,7 +113,71 @@
       "date": "2026-06-11T11:00:56+00:00"
     },
     {
-      "id": "125462341937581727",
+      "id": "3883664960848963985",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "금융"
+      ],
+      "date": "2026-06-11T11:00:45+00:00"
+    },
+    {
+      "id": "1890377345468223506",
+      "title": "Job titles of the future: Nature’s drug designer",
+      "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-06-11T10:00:00+00:00"
+    },
+    {
+      "id": "2550340324852607691",
+      "title": "Inside soccer’s data renaissance",
+      "url": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-11T10:00:00+00:00"
+    },
+    {
+      "id": "6323403737385801772",
+      "title": "Why China is betting on big nuclear reactors",
+      "url": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-06-11T10:00:00+00:00"
+    },
+    {
+      "id": "8882607357676975250",
+      "title": "Deezer launches an AI music detector for other streaming services",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-11T08:00:00+00:00"
+    },
+    {
+      "id": "1970963276931831760",
+      "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
+      "source": "Dark Reading",
+      "topics": [
+        "금융",
+        "정보보안"
+      ],
+      "date": "2026-06-11T00:01:00+00:00"
+    },
+    {
+      "id": "7763573931208638632",
       "title": "The seven operating truths of AI-native companies",
       "url": "https://www.mckinsey.com/capabilities/business-building/our-insights/the-seven-operating-truths-of-ai-native-companies",
       "source": "McKinsey",
@@ -36,7 +188,7 @@
       "date": "2026-06-11T00:00:00+00:00"
     },
     {
-      "id": "8244026935827152322",
+      "id": "4523013116723150026",
       "title": "Prudential’s Charles Lowrey on finishing strong as CEO",
       "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/prudentials-charles-lowrey-on-finishing-strong-as-ceo",
       "source": "McKinsey",
@@ -46,7 +198,7 @@
       "date": "2026-06-11T00:00:00+00:00"
     },
     {
-      "id": "1192902031623019813",
+      "id": "7759237868030749688",
       "title": "From risk to resilience: New approaches to navigating disruption in Asia",
       "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/from-risk-to-resilience-new-approaches-to-navigating-disruption-in-asia",
       "source": "McKinsey",
@@ -56,7 +208,7 @@
       "date": "2026-06-11T00:00:00+00:00"
     },
     {
-      "id": "3156103486740811686",
+      "id": "7835840610220033757",
       "title": "The world is changing. Can fashion keep up?",
       "url": "https://www.mckinsey.com/industries/retail/our-insights/the-world-is-changing-can-fashion-keep-up",
       "source": "McKinsey",
@@ -66,7 +218,7 @@
       "date": "2026-06-11T00:00:00+00:00"
     },
     {
-      "id": "8580309950713633912",
+      "id": "164820458578255044",
       "title": "Elevating the customer experience: IKEA’s agentic AI journey",
       "url": "https://www.mckinsey.com/industries/retail/our-insights/elevating-the-customer-experience-ikeas-agentic-ai-journey",
       "source": "McKinsey",
@@ -77,7 +229,123 @@
       "date": "2026-06-11T00:00:00+00:00"
     },
     {
-      "id": "6887790737967076781",
+      "id": "4066684948770114095",
+      "title": "CISA Rewrites Federal Patching Requirements for AI Threat Era",
+      "url": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-10T21:17:12+00:00"
+    },
+    {
+      "id": "6547849071203240027",
+      "title": "Bug Bounty Research Triggers ServiceNow Security Alert",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
+      "source": "Dark Reading",
+      "topics": [
+        "컨설팅",
+        "정보보안"
+      ],
+      "date": "2026-06-10T20:07:53+00:00"
+    },
+    {
+      "id": "4143596553724952360",
+      "title": "AI Risk Worries Insurers &amp; Businesses Alike",
+      "url": "https://www.darkreading.com/cyber-risk/ai-risk-worries-insurers-businesses-alike",
+      "source": "Dark Reading",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-10T19:34:43+00:00"
+    },
+    {
+      "id": "4817901330077485374",
+      "title": "Claude Fable won’t answer basic biology questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "source": "The Verge AI",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-10T18:43:34+00:00"
+    },
+    {
+      "id": "5669318418532508542",
+      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+      "source": "The Verge AI",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-10T17:45:11+00:00"
+    },
+    {
+      "id": "4537455009771803997",
+      "title": "The future of AI regulation is courting the strangest, most anxious bedfellows",
+      "url": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT",
+        "개인정보보호"
+      ],
+      "date": "2026-06-10T17:38:00+00:00"
+    },
+    {
+      "id": "4779736215873288151",
+      "title": "Google won’t just admit it’s feeding YouTube creators to its music AI",
+      "url": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+      "source": "The Verge AI",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-10T17:20:36+00:00"
+    },
+    {
+      "id": "4624813886835444184",
+      "title": "Global Interest in AI Exploited as Social Engineering Lure",
+      "url": "https://www.securitymagazine.com/articles/102361-global-interest-in-ai-exploited-as-social-engineering-lure",
+      "source": "Security Magazine",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-10T17:00:00+00:00"
+    },
+    {
+      "id": "6233433562328447610",
+      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
+      "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-10T16:50:23+00:00"
+    },
+    {
+      "id": "9087900948647710720",
+      "title": "Nightmare-Eclipse Drops Yet Another Microsoft Exploit, RoguePlanet",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet",
+      "source": "Dark Reading",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-06-10T16:31:02+00:00"
+    },
+    {
+      "id": "7753899692498759413",
+      "title": "Google will save your Lens photos, Search Live recordings, and Translate audio for AI training",
+      "url": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
+      "source": "The Verge AI",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-10T16:18:45+00:00"
+    },
+    {
+      "id": "3993771648149084060",
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
       "source": "Krebs on Security",
@@ -89,7 +357,18 @@
       "date": "2026-06-10T14:03:44+00:00"
     },
     {
-      "id": "511180699062683526",
+      "id": "2445844868933845043",
+      "title": "The Download: the “steroid olympics” and a safer Mythos",
+      "url": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-10T12:10:00+00:00"
+    },
+    {
+      "id": "3632195137323610402",
       "title": "NSO Group Hacking WhatsApp Despite Court Order",
       "url": "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html",
       "source": "Schneier on Security",
@@ -99,7 +378,17 @@
       "date": "2026-06-10T11:08:59+00:00"
     },
     {
-      "id": "8759355159909360977",
+      "id": "2364064773171475951",
+      "title": "The “steroid olympics” were a circus—and a window into our culture",
+      "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-06-10T09:00:00+00:00"
+    },
+    {
+      "id": "460958225719559560",
       "title": "The art, science, and technology of geopolitical scenario planning",
       "url": "https://www.mckinsey.com/capabilities/geopolitics/our-insights/the-art-science-and-technology-of-geopolitical-scenario-planning",
       "source": "McKinsey",
@@ -110,7 +399,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "5446533799424335289",
+      "id": "980419761893937101",
       "title": "Productivity reimagined",
       "url": "https://www.mckinsey.com/featured-insights/insights-on-europe/productivity-reimagined",
       "source": "McKinsey",
@@ -120,7 +409,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "2694845881211288754",
+      "id": "2145499087858895932",
       "title": "Launch of China Auto Consumer Survey, 2026",
       "url": "https://www.mckinsey.com/cn/updates/launch-of-china-auto-consumer-survey-2026",
       "source": "McKinsey",
@@ -130,7 +419,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "7611306502341561482",
+      "id": "6836012672004085918",
       "title": "AI usage among white-collar workers and students in Hong Kong: survey findings",
       "url": "https://www.mckinsey.com/cn/updates/ai-usage-among-white-collar-workers-and-students-in-hong-kong-survey-findings",
       "source": "McKinsey",
@@ -140,7 +429,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "2704905418181142912",
+      "id": "3506384319224218887",
       "title": "Computex2026 is over. The booths are packed up. The keynotes are done. What did we actually learn?",
       "url": "https://www.mckinsey.com/cn/updates/computex2026-is-over-what-did-we-actually-learn",
       "source": "McKinsey",
@@ -150,7 +439,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "2068419554755324018",
+      "id": "4169437936485610286",
       "title": "Rewiring retail in Europe: The AI imperative",
       "url": "https://www.mckinsey.com/industries/retail/our-insights/rewiring-retail-in-europe-the-ai-imperative",
       "source": "McKinsey",
@@ -160,7 +449,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "398382926750147124",
+      "id": "7895391981055527697",
       "title": "How corporate–scale-up partnering can boost Europe’s tech competitiveness",
       "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/how-corporate-scale-up-partnering-can-boost-europes-tech-competitiveness",
       "source": "McKinsey",
@@ -170,7 +459,7 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "24489100007858858",
+      "id": "1576938387212748800",
       "title": "Europe’s new e‑commerce agenda: How AI is resetting growth and competition",
       "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/europes-new-ecommerce-agenda-how-ai-is-resetting-growth-and-competition",
       "source": "McKinsey",
@@ -182,7 +471,17 @@
       "date": "2026-06-10T00:00:00+00:00"
     },
     {
-      "id": "3592558689371227803",
+      "id": "3547956184875347258",
+      "title": "I tried Siri AI, and so far it actually works",
+      "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
+      "source": "The Verge AI",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-09T23:43:00+00:00"
+    },
+    {
+      "id": "8604464353429501680",
       "title": "A Record-Breaking Patch Tuesday for June 2026",
       "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
       "source": "Krebs on Security",
@@ -194,7 +493,83 @@
       "date": "2026-06-09T22:07:28+00:00"
     },
     {
-      "id": "5966768822345527212",
+      "id": "6339744336392137258",
+      "title": "The Invisible Battlefield: How Cyberwar Is Reshaping Everyday Life",
+      "url": "https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life",
+      "source": "Dark Reading",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-09T21:57:11+00:00"
+    },
+    {
+      "id": "9064491472792739070",
+      "title": "Blame AI: Patch Tuesday Hits Record 206 CVEs",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-09T21:42:57+00:00"
+    },
+    {
+      "id": "4107199039815877320",
+      "title": "Microsoft Exchange Flaw Lets Attackers Spoof Any Email Address",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-09T20:20:00+00:00"
+    },
+    {
+      "id": "1831066648948196930",
+      "title": "Miasma Supply Chain Worm Burrows Into 73 Microsoft Repositories",
+      "url": "https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-09T19:33:45+00:00"
+    },
+    {
+      "id": "200406793717548368",
+      "title": "OT Cybersecurity Is Maturing, But Visibility Is Still a Challenge",
+      "url": "https://www.securitymagazine.com/articles/102356-ot-cybersecurity-is-maturing-but-visibility-is-still-a-challenge",
+      "source": "Security Magazine",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-09T18:00:00+00:00"
+    },
+    {
+      "id": "900322395603939948",
+      "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-09T15:37:02+00:00"
+    },
+    {
+      "id": "4300506928225131488",
+      "title": "Oxford University Discloses Data Breach",
+      "url": "https://www.securitymagazine.com/articles/102355-oxford-university-discloses-data-breach",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-09T15:30:00+00:00"
+    },
+    {
+      "id": "4943256653049069263",
       "title": "GPS As a Key Distribution Platform",
       "url": "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html",
       "source": "Schneier on Security",
@@ -205,7 +580,18 @@
       "date": "2026-06-09T15:06:49+00:00"
     },
     {
-      "id": "409041133923484168",
+      "id": "7993809471051425721",
+      "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-09T12:10:00+00:00"
+    },
+    {
+      "id": "2959781144993546398",
       "title": "The AI Atrophy Problem: How CIOs Fight It",
       "url": "https://sloanreview.mit.edu/video/the-ai-atrophy-problem-how-cios-fight-it/",
       "source": "MIT Sloan",
@@ -217,7 +603,29 @@
       "date": "2026-06-09T11:00:35+00:00"
     },
     {
-      "id": "4060116352640745975",
+      "id": "8546514814308550168",
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "컨설팅"
+      ],
+      "date": "2026-06-09T10:20:06+00:00"
+    },
+    {
+      "id": "8301758371081044554",
+      "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
+      "url": "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-09T10:00:00+00:00"
+    },
+    {
+      "id": "3753241278231124522",
       "title": "Reinventing autonomous driving in the age of generative AI",
       "url": "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/reinventing-autonomous-driving-in-the-age-of-generative-ai",
       "source": "McKinsey",
@@ -228,7 +636,7 @@
       "date": "2026-06-09T00:00:00+00:00"
     },
     {
-      "id": "3302422911450148028",
+      "id": "1103518617222976000",
       "title": "Reimagining trade spend: From cost center to growth catalyst",
       "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/reimagining-trade-spend-from-cost-center-to-growth-catalyst",
       "source": "McKinsey",
@@ -238,7 +646,7 @@
       "date": "2026-06-09T00:00:00+00:00"
     },
     {
-      "id": "7857263792595611539",
+      "id": "1670531369849087466",
       "title": "Private credit in 2025: A maturing industry navigates change",
       "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report/private-credit",
       "source": "McKinsey",
@@ -248,7 +656,7 @@
       "date": "2026-06-09T00:00:00+00:00"
     },
     {
-      "id": "8056611470051067831",
+      "id": "8226700401841129575",
       "title": "Where value is won and lost in distribution",
       "url": "https://www.mckinsey.com/industries/industrials/our-insights/where-value-is-won-and-lost-in-distribution",
       "source": "McKinsey",
@@ -258,18 +666,93 @@
       "date": "2026-06-09T00:00:00+00:00"
     },
     {
-      "id": "3691834430956699028",
+      "id": "1259303715333614932",
       "title": "AI in life sciences explained: The technology that could reinvent medicine",
       "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/ai-in-life-sciences-explained-the-technology-that-could-reinvent-medicine",
       "source": "McKinsey",
       "topics": [
         "AI",
-        "IT"
+        "IT",
+        "컨설팅"
       ],
       "date": "2026-06-09T00:00:00+00:00"
     },
     {
-      "id": "1117388233467280997",
+      "id": "6844561819932726566",
+      "title": "AI Slop Will Kill Cybersecurity Storytelling If We Let It",
+      "url": "https://www.darkreading.com/cyber-risk/ai-slop-kill-cybersecurity-storytelling-we-let-it",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-08T22:05:49+00:00"
+    },
+    {
+      "id": "5116104679478067137",
+      "title": "Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks",
+      "source": "Dark Reading",
+      "topics": [
+        "금융",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-08T20:59:52+00:00"
+    },
+    {
+      "id": "8400073496702536216",
+      "title": "Check Point VPN Flaw Exploited Since Early May",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
+      "source": "Dark Reading",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-08T20:28:35+00:00"
+    },
+    {
+      "id": "7469357284081606632",
+      "title": "Did Handala Disrupt Israeli Radar Systems?",
+      "url": "https://www.securitymagazine.com/articles/102354-did-handala-disrupt-israeli-radar-systems",
+      "source": "Security Magazine",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-08T19:30:00+00:00"
+    },
+    {
+      "id": "4428643146548992856",
+      "title": "Iran Signed a Ceasefire — Its Hackers Didn't",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
+      "source": "Dark Reading",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-06-08T19:07:48+00:00"
+    },
+    {
+      "id": "1889383063505765356",
+      "title": "Whistleblower Accuses IBM, AT&T of Covering Up Breaches",
+      "url": "https://www.securitymagazine.com/articles/102353-whistleblower-accuses-ibm-at-and-t-of-covering-up-breaches",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-08T19:00:00+00:00"
+    },
+    {
+      "id": "2757678107830858813",
+      "title": "LinkedIn, Indeed and Upwork Leveraged for Chinese Spying Threat",
+      "url": "https://www.securitymagazine.com/articles/102351-linkedin-indeed-and-upwork-leveraged-for-chinese-spying-threat",
+      "source": "Security Magazine",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-08T18:00:00+00:00"
+    },
+    {
+      "id": "4479474826310051279",
       "title": "Critical Zcash Vulnerability Found and Fixed",
       "url": "https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html",
       "source": "Schneier on Security",
@@ -281,7 +764,19 @@
       "date": "2026-06-08T17:06:53+00:00"
     },
     {
-      "id": "4208563915426101320",
+      "id": "2204528371405860842",
+      "title": "'Hades' Campaign Against PyPI Puts New Spin on Shai-Hulud",
+      "url": "https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-08T16:13:41+00:00"
+    },
+    {
+      "id": "4717219506683009938",
       "title": "The Empathy Tax Female Leaders Pay",
       "url": "https://sloanreview.mit.edu/article/the-empathy-tax-female-leaders-pay/",
       "source": "MIT Sloan",
@@ -291,7 +786,7 @@
       "date": "2026-06-08T12:30:26+00:00"
     },
     {
-      "id": "3464184855234139049",
+      "id": "1897203483395651961",
       "title": "Anthropic’s Project Glasswing Update",
       "url": "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html",
       "source": "Schneier on Security",
@@ -303,19 +798,20 @@
       "date": "2026-06-08T11:01:47+00:00"
     },
     {
-      "id": "3064140520605013228",
+      "id": "8607409599923993625",
       "title": "Banking and AI: When the tech starts doing the work, not just assisting it",
       "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/banking-and-ai-when-the-tech-starts-doing-the-work-not-just-assisting-it",
       "source": "McKinsey",
       "topics": [
         "AI",
         "금융",
-        "IT"
+        "IT",
+        "컨설팅"
       ],
       "date": "2026-06-08T00:00:00+00:00"
     },
     {
-      "id": "1848645184376781669",
+      "id": "568897695320922264",
       "title": "The next wave of value in the materials supply chain",
       "url": "https://www.mckinsey.com/industries/energy-and-materials/our-insights/the-next-wave-of-value-in-the-materials-supply-chain",
       "source": "McKinsey",
@@ -325,7 +821,7 @@
       "date": "2026-06-08T00:00:00+00:00"
     },
     {
-      "id": "6380116331463591918",
+      "id": "148125384655370468",
       "title": "Blackstone’s Legal & Compliance AI transformation started with technology. It succeeded because it put people first",
       "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/how-we-help-clients/blackstones-legal-and-compliance-ai-transformation-started-with-technology",
       "source": "McKinsey",
@@ -339,7 +835,7 @@
       "date": "2026-06-08T00:00:00+00:00"
     },
     {
-      "id": "7333695523464126567",
+      "id": "3665521064186332871",
       "title": "HR Monitor 2026: A turning point for the people function",
       "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/hr-monitor",
       "source": "McKinsey",
@@ -349,7 +845,7 @@
       "date": "2026-06-08T00:00:00+00:00"
     },
     {
-      "id": "753484356458524452",
+      "id": "4176915288944728532",
       "title": "Reimagining federal procurement in the digital and AI age",
       "url": "https://www.mckinsey.com/industries/public-sector/our-insights/reimagining-federal-procurement-in-the-digital-and-ai-age",
       "source": "McKinsey",
@@ -360,7 +856,51 @@
       "date": "2026-06-08T00:00:00+00:00"
     },
     {
-      "id": "58331946283397126",
+      "id": "3836848867784009520",
+      "title": "Exposed Fuel Tank Gauges Under Attack in the US",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us",
+      "source": "Dark Reading",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-05T19:04:36+00:00"
+    },
+    {
+      "id": "8530868872746711220",
+      "title": "93% of Organizations Use or Plan to Use AI Agents for Sensitive Security Tasks",
+      "url": "https://www.securitymagazine.com/articles/102346-93-of-organizations-use-or-plan-to-use-ai-agents-for-sensitive-security-tasks",
+      "source": "Security Magazine",
+      "topics": [
+        "AI",
+        "컨설팅",
+        "정보보안"
+      ],
+      "date": "2026-06-05T16:00:00+00:00"
+    },
+    {
+      "id": "2215576415043195275",
+      "title": "2.6M Accounts Exposed in DentaQuest Data Breach",
+      "url": "https://www.securitymagazine.com/articles/102347-26m-accounts-exposed-in-dentaquest-data-breach",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-05T15:30:00+00:00"
+    },
+    {
+      "id": "6502307826999645108",
+      "title": "Adaptive, Agentic AI Worms Loom as Next Enterprise Threat",
+      "url": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-05T14:40:11+00:00"
+    },
+    {
+      "id": "5745816432208926400",
       "title": "AI Worm",
       "url": "https://www.schneier.com/blog/archives/2026/06/ai-worm.html",
       "source": "Schneier on Security",
@@ -371,7 +911,18 @@
       "date": "2026-06-05T13:21:23+00:00"
     },
     {
-      "id": "921406488792971770",
+      "id": "3408030359273139129",
+      "title": "Trump AI Order Seeks Voluntary Frontier Model Testing",
+      "url": "https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-05T13:00:00+00:00"
+    },
+    {
+      "id": "1665705707436413275",
       "title": "Resetting cost competitiveness in pulp and paper packaging",
       "url": "https://www.mckinsey.com/industries/packaging-and-paper/our-insights/resetting-cost-competitiveness-in-pulp-and-paper-packaging",
       "source": "McKinsey",
@@ -381,7 +932,7 @@
       "date": "2026-06-05T00:00:00+00:00"
     },
     {
-      "id": "5018092561200934387",
+      "id": "42113732475538142",
       "title": "Author Talks: How to succeed when systems fail",
       "url": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-how-to-succeed-when-systems-fail",
       "source": "McKinsey",
@@ -392,7 +943,72 @@
       "date": "2026-06-05T00:00:00+00:00"
     },
     {
-      "id": "2735252864533241",
+      "id": "8933385538634242695",
+      "title": "Rust-Written IronWorm Hits NPM Supply Chain",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-06-04T21:47:06+00:00"
+    },
+    {
+      "id": "8245716286131693074",
+      "title": "China's TA4922 Expands Cybercrime Attacks Globally",
+      "url": "https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally",
+      "source": "Dark Reading",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-04T21:23:59+00:00"
+    },
+    {
+      "id": "8605958788605477566",
+      "title": "4 Critical Threats Where Attackers Have the Advantage",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/4-critical-threats-attackers-advantage",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-04T21:08:16+00:00"
+    },
+    {
+      "id": "4848184712097277198",
+      "title": "7 Data Security Stories to Know About (May 2026)",
+      "url": "https://www.securitymagazine.com/articles/102284-7-data-security-stories-to-know-about-may-2026",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-04T18:02:24+00:00"
+    },
+    {
+      "id": "7048048860428419824",
+      "title": "Security Experts Discuss Threats to FIFA World Cup 2026",
+      "url": "https://www.securitymagazine.com/articles/102341-security-experts-discuss-threats-to-fifa-world-cup-2026",
+      "source": "Security Magazine",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-04T16:15:00+00:00"
+    },
+    {
+      "id": "2097796870860365543",
+      "title": "Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs",
+      "url": "https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-06-04T14:22:20+00:00"
+    },
+    {
+      "id": "7799486508352727216",
       "title": "Hacking Meta’s AI Chatbot",
       "url": "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
       "source": "Schneier on Security",
@@ -404,17 +1020,30 @@
       "date": "2026-06-04T11:04:09+00:00"
     },
     {
-      "id": "633769044990580447",
+      "id": "6614572239464068052",
+      "title": "Pakistan Spies on Afghan Finance Ministry With Xeno RAT",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat",
+      "source": "Dark Reading",
+      "topics": [
+        "금융",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-04T04:01:00+00:00"
+    },
+    {
+      "id": "7846745775634270645",
       "title": "Latino economic mobility: Insights from five years of research",
       "url": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/latino-economic-mobility-insights-from-five-years-of-research",
       "source": "McKinsey",
       "topics": [
-        "금융"
+        "금융",
+        "컨설팅"
       ],
       "date": "2026-06-04T00:00:00+00:00"
     },
     {
-      "id": "7335611385194618198",
+      "id": "3474488505350417502",
       "title": "How CEOs can navigate the new era of trade",
       "url": "https://www.mckinsey.com/mgi/our-research/how-ceos-can-navigate-the-new-era-of-trade",
       "source": "McKinsey",
@@ -425,7 +1054,7 @@
       "date": "2026-06-04T00:00:00+00:00"
     },
     {
-      "id": "2933872487501373870",
+      "id": "3699577168331020993",
       "title": "Preparing for agentic commerce: REWE’s AI transformation",
       "url": "https://www.mckinsey.com/industries/retail/our-insights/preparing-for-agentic-commerce-rewes-ai-transformation",
       "source": "McKinsey",
@@ -438,19 +1067,82 @@
       "date": "2026-06-04T00:00:00+00:00"
     },
     {
-      "id": "3595856526285883899",
+      "id": "956967370707665628",
       "title": "Embracing complexity: Parloa’s vision for next-gen customer experience",
       "url": "https://www.mckinsey.com/capabilities/operations/our-insights/embracing-complexity-parloas-vision-for-next-gen-customer-experience",
       "source": "McKinsey",
       "topics": [
         "AI",
         "금융",
-        "IT"
+        "IT",
+        "컨설팅"
       ],
       "date": "2026-06-04T00:00:00+00:00"
     },
     {
-      "id": "2128625157022615939",
+      "id": "2849286134359881627",
+      "title": "Attackers Use AI to Automate EDR Evasion Testing",
+      "url": "https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-03T21:34:07+00:00"
+    },
+    {
+      "id": "3097927165320179444",
+      "title": "Tropical Blend: Cyber &amp; Politics Ramp Up Across Latin America",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/nation-state-cyber-activity-latin-america",
+      "source": "Dark Reading",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-03T19:52:32+00:00"
+    },
+    {
+      "id": "9127481036740042114",
+      "title": "Cyber Insurance Rates Are Dropping, but Exclusions Widen",
+      "url": "https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen",
+      "source": "Dark Reading",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-06-03T19:10:58+00:00"
+    },
+    {
+      "id": "2362044364046915418",
+      "title": "Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover",
+      "url": "https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover",
+      "source": "Dark Reading",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-06-03T19:00:41+00:00"
+    },
+    {
+      "id": "602138351038995075",
+      "title": "Only 9% of Organizations Patch Critical Vulnerabilities in 24 Hours",
+      "url": "https://www.securitymagazine.com/articles/102338-only-9-of-organizations-patch-critical-vulnerabilities-in-24-hours",
+      "source": "Security Magazine",
+      "topics": [
+        "컨설팅"
+      ],
+      "date": "2026-06-03T18:00:00+00:00"
+    },
+    {
+      "id": "1559145437921617845",
+      "title": "OpenAI and CEO Sam Altman Accused of Prioritizing Profit Over Safety in Lawsuit",
+      "url": "https://www.securitymagazine.com/articles/102339-openai-and-ceo-sam-altman-accused-of-prioritizing-profit-over-safety-in-lawsuit",
+      "source": "Security Magazine",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-03T16:28:00+00:00"
+    },
+    {
+      "id": "7863652545147712409",
       "title": "AI Used to Decrypt Medieval Ciphers",
       "url": "https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html",
       "source": "Schneier on Security",
@@ -460,7 +1152,7 @@
       "date": "2026-06-03T11:04:40+00:00"
     },
     {
-      "id": "2694709126691489409",
+      "id": "6237448811561252854",
       "title": "When warranty costs rival R&D spend: Remaking vehicle quality with AI",
       "url": "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/when-warranty-costs-rival-r-and-d-spend-remaking-vehicle-quality-with-ai",
       "source": "McKinsey",
@@ -471,7 +1163,28 @@
       "date": "2026-06-03T00:00:00+00:00"
     },
     {
-      "id": "5991911391319544529",
+      "id": "5347344916740352426",
+      "title": "Trump Signs Executive Order for Oversight of AI Models, Security Experts Discuss",
+      "url": "https://www.securitymagazine.com/articles/102337-trump-signs-executive-order-for-oversight-of-ai-models-security-experts-discuss",
+      "source": "Security Magazine",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-02T18:00:00+00:00"
+    },
+    {
+      "id": "7849509553406981041",
+      "title": "Hackers Tricked Instagram’s AI Chatbot to Hijack Accounts",
+      "url": "https://www.securitymagazine.com/articles/102335-hackers-tricked-instagrams-ai-chatbot-to-hijack-accounts",
+      "source": "Security Magazine",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-06-02T16:00:00+00:00"
+    },
+    {
+      "id": "5977751449722182575",
       "title": "How Nespresso Builds Sustainability Into Its Business Model",
       "url": "https://sloanreview.mit.edu/article/how-nespresso-builds-sustainability-into-its-business-model/",
       "source": "MIT Sloan",
@@ -483,7 +1196,7 @@
       "date": "2026-06-02T14:02:57+00:00"
     },
     {
-      "id": "2471385163367985991",
+      "id": "916757055358409216",
       "title": "Our Guide to the Summer 2026 Issue",
       "url": "https://sloanreview.mit.edu/article/our-guide-to-the-summer-2026-issue/",
       "source": "MIT Sloan",
@@ -494,7 +1207,7 @@
       "date": "2026-06-02T13:48:06+00:00"
     },
     {
-      "id": "5970672910387666620",
+      "id": "1222621191700167383",
       "title": "What Wise Leaders Understand About Business Ecosystems",
       "url": "https://sloanreview.mit.edu/article/what-wise-leaders-understand-about-business-ecosystems/",
       "source": "MIT Sloan",
@@ -505,7 +1218,7 @@
       "date": "2026-06-02T13:47:51+00:00"
     },
     {
-      "id": "6065805200687303203",
+      "id": "6137569099349995091",
       "title": "Why AI Isn’t Transforming Finance Yet",
       "url": "https://sloanreview.mit.edu/article/why-ai-isnt-transforming-finance-yet/",
       "source": "MIT Sloan",
@@ -518,7 +1231,7 @@
       "date": "2026-06-02T13:45:01+00:00"
     },
     {
-      "id": "4342898093198550827",
+      "id": "5350862613287900587",
       "title": "Scaling AI With Adaptive Governance",
       "url": "https://sloanreview.mit.edu/article/scaling-ai-with-adaptive-governance/",
       "source": "MIT Sloan",
@@ -531,7 +1244,7 @@
       "date": "2026-06-02T13:41:46+00:00"
     },
     {
-      "id": "2539214013127696632",
+      "id": "1074766803935817507",
       "title": "Create Generative AI Value at Scale",
       "url": "https://sloanreview.mit.edu/article/create-generative-ai-value-at-scale/",
       "source": "MIT Sloan",
@@ -542,7 +1255,7 @@
       "date": "2026-06-02T13:36:36+00:00"
     },
     {
-      "id": "3290335433238656291",
+      "id": "4784760872802019455",
       "title": "The Intersection of Encryption and AI",
       "url": "https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html",
       "source": "Schneier on Security",
@@ -554,7 +1267,7 @@
       "date": "2026-06-02T11:06:25+00:00"
     },
     {
-      "id": "5800632134953940323",
+      "id": "7001089766600462181",
       "title": "Microsoft Threatening Security Researcher",
       "url": "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html",
       "source": "Schneier on Security",
@@ -566,7 +1279,7 @@
       "date": "2026-06-02T11:00:42+00:00"
     },
     {
-      "id": "8501484871989587320",
+      "id": "2106260365464197035",
       "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "source": "Krebs on Security",
@@ -576,7 +1289,28 @@
       "date": "2026-06-01T17:32:50+00:00"
     },
     {
-      "id": "6169194427146514473",
+      "id": "5094398804098268757",
+      "title": "The First World Cup in the Agentic Era",
+      "url": "https://www.securitymagazine.com/articles/102333-the-first-world-cup-in-the-agentic-era",
+      "source": "Security Magazine",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-06-01T17:00:00+00:00"
+    },
+    {
+      "id": "6908193544656658670",
+      "title": "US Troops in Active War Zones Tracked with Commercial Location Data",
+      "url": "https://www.securitymagazine.com/articles/102332-us-troops-in-active-war-zones-tracked-with-commercial-location-data",
+      "source": "Security Magazine",
+      "topics": [
+        "IT"
+      ],
+      "date": "2026-06-01T16:00:00+00:00"
+    },
+    {
+      "id": "9194391659802677223",
       "title": "Three Things to Know About Assessing Customer Reviews",
       "url": "https://sloanreview.mit.edu/article/three-things-to-know-about-assessing-customer-reviews/",
       "source": "MIT Sloan",
@@ -586,7 +1320,7 @@
       "date": "2026-06-01T11:00:49+00:00"
     },
     {
-      "id": "3528861288166523500",
+      "id": "650706246988292222",
       "title": "A Three-Minute Protocol to Reduce AI Manipulation Risk",
       "url": "https://sloanreview.mit.edu/article/a-three-minute-protocol-to-reduce-ai-manipulation-risk/",
       "source": "MIT Sloan",
@@ -597,7 +1331,7 @@
       "date": "2026-06-01T11:00:24+00:00"
     },
     {
-      "id": "2098929726125294276",
+      "id": "7388551216370915526",
       "title": "Does Cultural Training Help Expats Succeed?",
       "url": "https://sloanreview.mit.edu/article/does-cultural-training-help-expats-succeed/",
       "source": "MIT Sloan",
@@ -608,7 +1342,7 @@
       "date": "2026-06-01T11:00:19+00:00"
     },
     {
-      "id": "1550991070656302661",
+      "id": "9084871926300969364",
       "title": "AI for Interoperability in Health Care: Philips’s Carla Goulart Peron",
       "url": "https://sloanreview.mit.edu/audio/ai-for-interoperability-in-health-care-philipss-carla-goulart-peron/",
       "source": "MIT Sloan",
@@ -618,7 +1352,49 @@
       "date": "2026-06-01T11:00:18+00:00"
     },
     {
-      "id": "2311627531856093208",
+      "id": "953033431398576180",
+      "title": "Risks of Robinhood Using AI Agents to Trade, Make Purchases",
+      "url": "https://www.securitymagazine.com/articles/102330-risks-of-robinhood-using-ai-agents-to-trade-make-purchases",
+      "source": "Security Magazine",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-05-29T15:00:00+00:00"
+    },
+    {
+      "id": "6639484306404596429",
+      "title": "As Summer Closes In, the Travel Sector Is Unprepared",
+      "url": "https://www.securitymagazine.com/articles/102329-as-summer-closes-in-the-travel-sector-is-unprepared",
+      "source": "Security Magazine",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-05-28T17:00:00+00:00"
+    },
+    {
+      "id": "6577628184940021406",
+      "title": "AI Agent Conducted a Cyberattack on Its Own — It Took Less Than One Hour",
+      "url": "https://www.securitymagazine.com/articles/102325-ai-agent-conducted-a-cyberattack-on-its-own-it-took-less-than-one-hour",
+      "source": "Security Magazine",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-05-28T15:12:00+00:00"
+    },
+    {
+      "id": "7692906785845666707",
+      "title": "6M Impacted by Carnival Cruise Data Breach",
+      "url": "https://www.securitymagazine.com/articles/102327-6m-impacted-by-carnival-cruise-data-breach",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-05-28T14:30:00+00:00"
+    },
+    {
+      "id": "3686924509984677835",
       "title": "When Employees Are Drowning in Change",
       "url": "https://sloanreview.mit.edu/article/when-employees-are-drowning-in-change/",
       "source": "MIT Sloan",
@@ -628,7 +1404,28 @@
       "date": "2026-05-28T11:00:15+00:00"
     },
     {
-      "id": "2851534601911408537",
+      "id": "3028196467501130442",
+      "title": "FBI Warning: IT Personnel Impersonated by Cybercriminals",
+      "url": "https://www.securitymagazine.com/articles/102326-fbi-warning-it-personnel-impersonated-by-cybercriminals",
+      "source": "Security Magazine",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-05-27T18:20:00+00:00"
+    },
+    {
+      "id": "7726930824880549141",
+      "title": "Windows Users Targeted in New Phishing Campaign",
+      "url": "https://www.securitymagazine.com/articles/102322-windows-users-targeted-in-new-phishing-campaign",
+      "source": "Security Magazine",
+      "topics": [
+        "AI",
+        "정보보안"
+      ],
+      "date": "2026-05-27T15:40:00+00:00"
+    },
+    {
+      "id": "5642519604579122075",
       "title": "What AI Still Can’t Do for Leaders",
       "url": "https://sloanreview.mit.edu/video/what-ai-still-cant-do-for-leaders/",
       "source": "MIT Sloan",
@@ -639,7 +1436,40 @@
       "date": "2026-05-27T11:00:09+00:00"
     },
     {
-      "id": "638001869632635442",
+      "id": "5720390230883348809",
+      "title": "Breaking Down Trump’s $2B Quantum Investment: Expert Insights",
+      "url": "https://www.securitymagazine.com/articles/102321-breaking-down-trumps-2b-quantum-investment-expert-insights",
+      "source": "Security Magazine",
+      "topics": [
+        "금융",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-05-26T16:54:00+00:00"
+    },
+    {
+      "id": "213229034755736345",
+      "title": "Texas Tech University Constructing Critical Infrastructure Security Site",
+      "url": "https://www.securitymagazine.com/articles/102319-texas-tech-university-constructing-critical-infrastructure-security-site",
+      "source": "Security Magazine",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-05-26T15:50:00+00:00"
+    },
+    {
+      "id": "4959204375177923735",
+      "title": "600,000 Lithuanian National Register Entries Leaked",
+      "url": "https://www.securitymagazine.com/articles/102318-600-000-lithuanian-national-register-entries-leaked",
+      "source": "Security Magazine",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-05-26T14:00:00+00:00"
+    },
+    {
+      "id": "6050582522995740358",
       "title": "Ask Sanyin: Why Can’t They See That I’m Visionary?",
       "url": "https://sloanreview.mit.edu/article/ask-sanyin-why-cant-they-see-that-im-visionary/",
       "source": "MIT Sloan",
@@ -649,7 +1479,7 @@
       "date": "2026-05-26T11:00:04+00:00"
     },
     {
-      "id": "93905956954786764",
+      "id": "589727377901875218",
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
       "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
       "source": "Krebs on Security",
@@ -662,7 +1492,7 @@
       "date": "2026-05-25T13:21:49+00:00"
     },
     {
-      "id": "8730715373722022038",
+      "id": "2747945304214107483",
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
       "url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "source": "Krebs on Security",
@@ -674,7 +1504,17 @@
       "date": "2026-05-22T16:34:24+00:00"
     },
     {
-      "id": "5245274308795345988",
+      "id": "1091737048022097824",
+      "title": "Why CISA Accepting KEV Nominations Is So Important",
+      "url": "https://www.securitymagazine.com/articles/102317-why-cisa-accepting-kev-nominations-is-so-important",
+      "source": "Security Magazine",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-05-22T15:00:00+00:00"
+    },
+    {
+      "id": "6069965141172896354",
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
       "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
       "source": "Krebs on Security",
@@ -685,7 +1525,27 @@
       "date": "2026-05-21T21:50:25+00:00"
     },
     {
-      "id": "2281437221820584244",
+      "id": "1722895335900046098",
+      "title": "Security Leaders Should Prepare for World Cup Scams",
+      "url": "https://www.securitymagazine.com/articles/102315-security-leaders-should-prepare-for-world-cup-scams",
+      "source": "Security Magazine",
+      "topics": [
+        "정보보안"
+      ],
+      "date": "2026-05-21T15:00:00+00:00"
+    },
+    {
+      "id": "4488994316599350645",
+      "title": "Strategies, Expert Insights from the 2026 Verizon DBIR",
+      "url": "https://www.securitymagazine.com/articles/102313-strategies-expert-insights-from-the-2026-verizon-dbir",
+      "source": "Security Magazine",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-05-21T13:00:00+00:00"
+    },
+    {
+      "id": "365829285168533986",
       "title": "Data Transformation Is the CEO’s Business",
       "url": "https://sloanreview.mit.edu/article/data-transformation-is-the-ceos-business/",
       "source": "MIT Sloan",
@@ -696,7 +1556,7 @@
       "date": "2026-05-21T11:00:08+00:00"
     },
     {
-      "id": "6868875130518088479",
+      "id": "2894775036858581449",
       "title": "What It Takes to Scale Value-Based Industrial Solutions",
       "url": "https://sloanreview.mit.edu/article/what-it-takes-to-scale-value-based-industrial-solutions/",
       "source": "MIT Sloan",
@@ -706,7 +1566,7 @@
       "date": "2026-05-20T11:00:55+00:00"
     },
     {
-      "id": "6219773277295366275",
+      "id": "3896458806266170076",
       "title": "Companies Don’t Have to Slash Jobs Because of AI",
       "url": "https://sloanreview.mit.edu/article/companies-dont-have-to-slash-jobs-because-of-ai/",
       "source": "MIT Sloan",
@@ -717,7 +1577,7 @@
       "date": "2026-05-19T17:00:08+00:00"
     },
     {
-      "id": "6437391977749826301",
+      "id": "1040594337894588705",
       "title": "A Need for Nuance: The Economist’s Andrew Palmer",
       "url": "https://sloanreview.mit.edu/audio/a-need-for-nuance-the-economists-andrew-palmer/",
       "source": "MIT Sloan",
@@ -728,7 +1588,7 @@
       "date": "2026-05-19T11:00:17+00:00"
     },
     {
-      "id": "7480396068166643136",
+      "id": "378570598615335515",
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "source": "Krebs on Security",
@@ -740,7 +1600,7 @@
       "date": "2026-05-18T20:48:21+00:00"
     },
     {
-      "id": "8689129079727048892",
+      "id": "861188202667073929",
       "title": "Patch Tuesday, May 2026 Edition",
       "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
       "source": "Krebs on Security",
@@ -752,7 +1612,7 @@
       "date": "2026-05-12T21:46:45+00:00"
     },
     {
-      "id": "4603628754015019476",
+      "id": "725349176213766090",
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
       "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "source": "Krebs on Security",
@@ -763,7 +1623,7 @@
       "date": "2026-05-08T02:58:46+00:00"
     },
     {
-      "id": "3612416719904351205",
+      "id": "174262732389561077",
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
       "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
       "source": "Krebs on Security",
