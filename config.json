@@ -25,6 +25,14 @@
       "rss": "https://www.hankyung.com/feed/international"
     },
     {
+      "name": "금융위원회",
+      "rss": "https://www.fsc.go.kr/ut060101"
+    },
+    {
+      "name": "정책브리핑",
+      "rss": "https://www.korea.kr/rss/allNews.do"
+    },
+    {
       "name": "Krebs on Security",
       "rss": "https://krebsonsecurity.com/feed/"
     },
@@ -51,11 +59,12 @@
   ],
   "topics": {
     "AI": ["AI", "artificial intelligence", "machine learning", "LLM", "generative", "automation", "GPT", "deep learning", "neural", "gen AI", "인공지능", "생성형"],
-    "금융(국내)": ["한국경제_경제", "금융", "주식", "증권", "부동산", "금리", "환율", "코스피", "한국은행", "기준금리", "투자", "펀드"],
+    "금융(국내)": ["금융위원회", "한국경제_경제", "금융", "주식", "증권", "부동산", "금리", "환율", "코스피", "한국은행", "기준금리", "투자", "펀드", "경제"],
     "금융(국제)": ["finance", "financial", "banking", "investment", "capital", "fintech", "IMF", "fiscal", "monetary", "fed", "interest rate", "inflation", "GDP"],
     "IT": ["technology", "digital", "cloud", "software", "infrastructure", "data", "platform", "SaaS", "tech", "computing", "semiconductor", "IT", "반도체", "디지털"],
     "컨설팅": ["strategy", "consulting", "transformation", "operations", "management", "leadership", "organization", "performance", "advisory", "McKinsey", "전략", "경영"],
     "정보보안": ["cybersecurity", "security", "breach", "threat", "ransomware", "vulnerability", "CISO", "hacking", "malware", "attack", "phishing", "보안", "해킹"],
-    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "PII", "개인정보", "정보보호", "규정준수"]
+    "개인정보보호": ["privacy", "GDPR", "data protection", "compliance", "regulation", "personal data", "CCPA", "PII", "개인정보", "정보보호", "규정준수"],
+    "정부정책": ["정책브리핑", "정책", "정부", "법안", "규제", "고시", "행정", "입법", "공공"]
   }
 }
