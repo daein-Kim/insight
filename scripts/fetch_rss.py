@@ -85,11 +85,11 @@ def fetch_all():
         "articles": articles
     }
 
-    os.makedirs("public", exist_ok=True)
-    with open("public/articles.json", "w", encoding="utf-8") as f:
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/articles.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\nDone! {len(articles)} articles saved to public/articles.json")
+    print(f"\nDone! {len(articles)} articles saved to docs/articles.json")
 
 if __name__ == "__main__":
     fetch_all()
