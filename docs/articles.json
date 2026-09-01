@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-01T00:09:57.383045+00:00",
+  "updated_at": "2026-09-01T22:53:09.755406+00:00",
   "total": 240,
   "articles": [
     {
-      "id": "3438757872612595497",
+      "id": "1002891377436744579",
       "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
       "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
       "source": "Dark Reading",
@@ -14,7 +14,7 @@
       "date": "2026-11-12T16:00:00+00:00"
     },
     {
-      "id": "2449557208985416072",
+      "id": "2498766458209061160",
       "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
       "url": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026",
       "source": "Dark Reading",
@@ -25,7 +25,1016 @@
       "date": "2026-10-08T15:00:00+00:00"
     },
     {
-      "id": "6545879968260575523",
+      "id": "6941556605623968043",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "Krebs on Security",
+      "topics": [
+        "AI",
+        "금융(국제)",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T22:40:28+00:00"
+    },
+    {
+      "id": "2188730603247015024",
+      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-09-01T22:01:36+00:00"
+    },
+    {
+      "id": "7275281855864144128",
+      "title": "'20년 글로벌 저축 과잉' 시대 끝…AI·방산 투자전쟁에 국채 금리도 뛴다",
+      "url": "https://www.hankyung.com/article/202609016889i",
+      "source": "한국경제_경제",
+      "topics": [
+        "AI",
+        "금융(국내)"
+      ],
+      "date": "2026-09-01T22:00:11+00:00"
+    },
+    {
+      "id": "1959928378719663471",
+      "title": "\"K뷰티는 왜 안 꺾이나\"…맥킨지 파트너가 짚은 '3가지 비밀'",
+      "url": "https://www.hankyung.com/article/202608314819i",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T22:00:03+00:00"
+    },
+    {
+      "id": "1631312087568756950",
+      "title": "\"경찰 못 믿겠다\" 공포 확산…다이소 1000원짜리까지 '품절' [불신 청구서]",
+      "url": "https://www.hankyung.com/article/202609015603H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T21:43:01+00:00"
+    },
+    {
+      "id": "5426012324640114448",
+      "title": "美 국채금리 불붙자 진화 나선 베선트…이란 돈줄도 죈다",
+      "url": "https://www.hankyung.com/article/2026090280947",
+      "source": "한국경제_경제",
+      "topics": [
+        "금융(국내)"
+      ],
+      "date": "2026-09-01T21:38:23+00:00"
+    },
+    {
+      "id": "5059218115891064113",
+      "title": "[핫 컴퍼니] 큐리옥스바이오시스템즈 “원심분리기 없는 세포 세척… 실험 편차 5분의 1로”",
+      "url": "https://www.hankyung.com/article/202608313639i",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T21:22:01+00:00"
+    },
+    {
+      "id": "6982185326506217059",
+      "title": "Attackers Pounce on Critical Artifactory Flaw Following Disclosure",
+      "url": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T21:05:53+00:00"
+    },
+    {
+      "id": "4275441690657477289",
+      "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+      "url": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
+      "source": "Dark Reading",
+      "topics": [
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T21:03:19+00:00"
+    },
+    {
+      "id": "6240571458272015077",
+      "title": "\"끊으라면서 집 짓는 돈을 담뱃세로\"…1.5조 세금 전환 논란 [권용훈의 트렌드워치]",
+      "url": "https://www.hankyung.com/article/202608277752i",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T21:00:26+00:00"
+    },
+    {
+      "id": "7584569344662305811",
+      "title": "\"ETF는 이제 지쳤다\"…두 달 만에 5.5조 몰린 '뜻밖의 상품'",
+      "url": "https://www.hankyung.com/article/2026090174231",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T21:00:11+00:00"
+    },
+    {
+      "id": "4372024238291796238",
+      "title": "\"삼성 가전 최대 540만원 할인\"…'역대급 세일' 또 열린다",
+      "url": "https://www.hankyung.com/article/202609017144g",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T21:00:06+00:00"
+    },
+    {
+      "id": "4131711902356767253",
+      "title": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T20:48:52+00:00"
+    },
+    {
+      "id": "524814484487974810",
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T20:45:49+00:00"
+    },
+    {
+      "id": "3693502451084723137",
+      "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+      "url": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T20:13:09+00:00"
+    },
+    {
+      "id": "8726845678167140461",
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-09-01T19:10:36+00:00"
+    },
+    {
+      "id": "4552494721163574384",
+      "title": "The rise of AI &#8216;civilizations&#8217; and the fall of corporate responsibility",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T19:02:54+00:00"
+    },
+    {
+      "id": "5629118552627338212",
+      "title": "Apple accuses OpenAI of destroying evidence",
+      "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T18:19:26+00:00"
+    },
+    {
+      "id": "7525819550262500777",
+      "title": "[포토] 아늑, '2026 올해의 브랜드 대상' 중소형호텔프랜차이즈 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028032H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:10:14+00:00"
+    },
+    {
+      "id": "9044122283869589407",
+      "title": "[포토] 카카오페이손해보험, '2026 올해의 브랜드 대상' 펫보험 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028031H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:09:34+00:00"
+    },
+    {
+      "id": "5184637505110340804",
+      "title": "[포토] 씨푸드프롬노르웨이, '2026 올해의 브랜드 대상' 수입수산물 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028030H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:08:53+00:00"
+    },
+    {
+      "id": "7445036103813377410",
+      "title": "[포토] 카페인중독, '2026 올해의 브랜드 대상' 와플전문점 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028029H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:08:10+00:00"
+    },
+    {
+      "id": "6298146581031432959",
+      "title": "[포토] 칼파제르, '2026 올해의 브랜드 대상' 초콜릿 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028027H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:07:32+00:00"
+    },
+    {
+      "id": "8013131527279399706",
+      "title": "[포토] 폴라초이스, '2026 올해의 브랜드 대상' 모공케어 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028026H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:06:52+00:00"
+    },
+    {
+      "id": "1075291475857446048",
+      "title": "[포토] 카야하우스, '2026 올해의 브랜드 대상' 카야잼 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028025H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:06:04+00:00"
+    },
+    {
+      "id": "5613637814944150652",
+      "title": "[포토] 아펠가모, '2026 올해의 브랜드 대상' 웨딩홀 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028024H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:05:26+00:00"
+    },
+    {
+      "id": "8170139541214017900",
+      "title": "[포토] 시야쥬, '2026 올해의 브랜드 대상' 비즈니스캐주얼 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028023H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:04:41+00:00"
+    },
+    {
+      "id": "7978874279145325479",
+      "title": "[포토] 누그레이, '2026 올해의 브랜드 대상' 치크메이크업 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028022H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:04:00+00:00"
+    },
+    {
+      "id": "5017906614443067699",
+      "title": "[포토] 카스 제로, '2026 올해의 브랜드 대상' 논알콜맥주 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028021H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:03:20+00:00"
+    },
+    {
+      "id": "7555527996266794266",
+      "title": "[포토] 베르만, '2026 올해의 브랜드 대상' 캐리어 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028020H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:02:32+00:00"
+    },
+    {
+      "id": "2742753987640475511",
+      "title": "[포토] 춘리마라탕, '2026 올해의 브랜드 대상' 마라탕전문점 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028018H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:01:27+00:00"
+    },
+    {
+      "id": "6012058118915692628",
+      "title": "[포토] Bdan, '2026 올해의 브랜드 대상' 디지털실물자산거래소 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028017H",
+      "source": "한국경제_경제",
+      "topics": [
+        "IT"
+      ],
+      "date": "2026-09-01T18:00:46+00:00"
+    },
+    {
+      "id": "3898168109268605547",
+      "title": "[포토] 풍림푸드, '2026 올해의 브랜드 대상' 가공계란 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028016H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T18:00:09+00:00"
+    },
+    {
+      "id": "8863187814192131639",
+      "title": "[포토] 세노비스 키즈, '2026 올해의 브랜드 대상' 어린이비타민 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028014H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:58:54+00:00"
+    },
+    {
+      "id": "4314106252290106145",
+      "title": "[포토] 에버크린, '2026 올해의 브랜드 대상' 고양이모래 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028013H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:58:12+00:00"
+    },
+    {
+      "id": "7951672098427198786",
+      "title": "[포토] 킁킁쿵쿵 캠페인, '2026 올해의 브랜드 대상' 반려동물 건강 캠페인 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028011H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:55:46+00:00"
+    },
+    {
+      "id": "1680030376539495902",
+      "title": "[포토] 린클, '2026 올해의 브랜드 대상' 음식물처리기 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028010H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:54:55+00:00"
+    },
+    {
+      "id": "2394948155429785557",
+      "title": "[포토] 카스쿨 페스티벌, '2026 올해의 브랜드 대상' 뮤직페스티벌 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028008H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:54:12+00:00"
+    },
+    {
+      "id": "7871133745628166024",
+      "title": "[포토] 사조 참치액, '2026 올해의 브랜드 대상' 참치액 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028007H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:53:22+00:00"
+    },
+    {
+      "id": "7647048522674147073",
+      "title": "[포토] 동성 정로환, '2026 올해의 브랜드 대상' 지사제 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028006H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:52:38+00:00"
+    },
+    {
+      "id": "2795359761537066156",
+      "title": "[포토] 동성 미녹시딜, '2026 올해의 브랜드 대상' 액상형탈모치료기 부문 수상",
+      "url": "https://www.hankyung.com/article/202609028005H",
+      "source": "한국경제_경제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T17:51:58+00:00"
+    },
+    {
+      "id": "405139850649337620",
+      "title": "What’s the Scam?",
+      "url": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
+      "source": "Schneier on Security",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T17:36:13+00:00"
+    },
+    {
+      "id": "5074648133022490286",
+      "title": "Leaked Russian Cyber-Operations Training Materials",
+      "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
+      "source": "Schneier on Security",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅",
+        "정보보안"
+      ],
+      "date": "2026-09-01T16:29:10+00:00"
+    },
+    {
+      "id": "5728730546826621657",
+      "title": "John Deere launched an AI chatbot for farmers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T16:00:52+00:00"
+    },
+    {
+      "id": "3440130458649783686",
+      "title": "Google Pics is like Canva, but with even more AI",
+      "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T16:00:00+00:00"
+    },
+    {
+      "id": "1550205575387306150",
+      "title": "유로존 인플레 3년만에 최고",
+      "url": "https://www.hankyung.com/article/2026090178091",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T15:47:15+00:00"
+    },
+    {
+      "id": "4550475671921127423",
+      "title": "Over and Out",
+      "url": "https://sloanreview.mit.edu/article/over-and-out/",
+      "source": "MIT Sloan",
+      "topics": [
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-09-01T15:22:42+00:00"
+    },
+    {
+      "id": "2051927393616783256",
+      "title": "What Kind of Chief Purpose Officer Does Your Company Need?",
+      "url": "https://sloanreview.mit.edu/article/what-kind-of-chief-purpose-officer-does-your-company-need/",
+      "source": "MIT Sloan",
+      "topics": [
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-09-01T15:21:42+00:00"
+    },
+    {
+      "id": "6587094884572284274",
+      "title": "Dethroning Loyalty",
+      "url": "https://sloanreview.mit.edu/article/dethroning-loyalty/",
+      "source": "MIT Sloan",
+      "topics": [
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-09-01T15:19:44+00:00"
+    },
+    {
+      "id": "1384972395564466385",
+      "title": "﻿How Leadership Anxiety Derails Transformation",
+      "url": "https://sloanreview.mit.edu/article/how-leadership-anxiety-derails-transformation/",
+      "source": "MIT Sloan",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-09-01T15:17:53+00:00"
+    },
+    {
+      "id": "578267612804402013",
+      "title": "Making the AI-powered case for legacy modernization",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T14:00:00+00:00"
+    },
+    {
+      "id": "6521527033740416619",
+      "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+      "url": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-09-01T13:56:42+00:00"
+    },
+    {
+      "id": "1998746411539480853",
+      "title": "대홍수, 한국인 실종자 수색 성과 아직…\"골든타임 72시간\"",
+      "url": "https://www.hankyung.com/article/2026090177707",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T13:09:06+00:00"
+    },
+    {
+      "id": "2033883384763199360",
+      "title": "Nvidia&#8217;s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
+      "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
+      "source": "The Verge AI",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T13:00:00+00:00"
+    },
+    {
+      "id": "6006892640932456192",
+      "title": "챗GPT 광고 시작 200일만에…연매출 1조3700억원 돌파",
+      "url": "https://www.hankyung.com/article/2026090177317",
+      "source": "한국경제_IT",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-09-01T12:50:11+00:00"
+    },
+    {
+      "id": "3623383730841391064",
+      "title": "'7000조 제국' 물려받나…젠슨 황 옆에 선 여성의 정체",
+      "url": "https://www.hankyung.com/article/2026090177497",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T12:26:21+00:00"
+    },
+    {
+      "id": "4117360298672164184",
+      "title": "이란 대통령, 외교재개 시사…\"미국 합의 이행하면 즉각 상응조치\"",
+      "url": "https://www.hankyung.com/article/2026090177297",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T12:11:49+00:00"
+    },
+    {
+      "id": "3299641239009030994",
+      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T12:10:00+00:00"
+    },
+    {
+      "id": "6392205165225031395",
+      "title": "올해 폭염으로 5000명 사망한 스페인…9월도 이례적 무더위 계속",
+      "url": "https://www.hankyung.com/article/2026090177287",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T12:09:35+00:00"
+    },
+    {
+      "id": "1654755671274162707",
+      "title": "대만 유명식당 '바퀴벌레 테러남' 체포…\"서비스에 앙심\"",
+      "url": "https://www.hankyung.com/article/2026090176687",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T10:36:28+00:00"
+    },
+    {
+      "id": "5855940604389835321",
+      "title": "남극 빙하 녹으니 수은 550% 폭증…지구 비상 걸렸다",
+      "url": "https://www.hankyung.com/article/2026090172817",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T09:59:39+00:00"
+    },
+    {
+      "id": "8921185013640044531",
+      "title": "Rewiring Democracy Series on The Renovator",
+      "url": "https://www.schneier.com/blog/archives/2026/09/rewiring-democracy-series-on-the-renovator.html",
+      "source": "Schneier on Security",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T09:59:07+00:00"
+    },
+    {
+      "id": "9045452660478351372",
+      "title": "발라뒤르 前 프랑스 총리 별세",
+      "url": "https://www.hankyung.com/article/2026090174891",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T09:43:06+00:00"
+    },
+    {
+      "id": "506386750020518650",
+      "title": "[속보] 네팔 당국 \"홍수·산사태 사망자 1010명…실종자 약 4000명\"",
+      "url": "https://www.hankyung.com/article/2026090176267",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T09:36:50+00:00"
+    },
+    {
+      "id": "5406019046832406361",
+      "title": "AI에 무너진 '가성비 IT강국' 인도…'쉬운 일자리의 종말' 닥쳤다",
+      "url": "https://www.hankyung.com/article/2026090173351",
+      "source": "한국경제_IT",
+      "topics": [
+        "AI",
+        "IT"
+      ],
+      "date": "2026-09-01T09:17:12+00:00"
+    },
+    {
+      "id": "3374341102625949219",
+      "title": "How engineered microbes could help feed the world’s crops",
+      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "source": "MIT Tech Review",
+      "topics": [
+        "IT"
+      ],
+      "date": "2026-09-01T09:00:00+00:00"
+    },
+    {
+      "id": "3094947681643464192",
+      "title": "'대홍수' 네팔에 비해 조용한 중국, 왜?…게시글 올리면 '처벌'",
+      "url": "https://www.hankyung.com/article/2026090174287",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T08:59:13+00:00"
+    },
+    {
+      "id": "4526681867080123214",
+      "title": "네팔 수력발전소 내부 수색 난항",
+      "url": "https://www.hankyung.com/article/2026090174751",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T08:56:32+00:00"
+    },
+    {
+      "id": "4434335269340584915",
+      "title": "횡설수설 트럼프…\"경제 상황 좋으니 기준금리 낮추자\"",
+      "url": "https://www.hankyung.com/article/2026090174701",
+      "source": "한국경제_국제",
+      "topics": [
+        "금융(국내)"
+      ],
+      "date": "2026-09-01T08:54:41+00:00"
+    },
+    {
+      "id": "1467826538403991683",
+      "title": "\"수수료 안 깎으면 AI 쓰겠다\"…컨설팅 업계 위기, 현실로",
+      "url": "https://www.hankyung.com/article/2026090174741",
+      "source": "한국경제_국제",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-09-01T08:54:14+00:00"
+    },
+    {
+      "id": "3357948298420549166",
+      "title": "불어나는 국채 이자…버틸 만한 美·日, 코너 몰린 유럽",
+      "url": "https://www.hankyung.com/article/2026090174761",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T08:53:23+00:00"
+    },
+    {
+      "id": "7257259971464686219",
+      "title": "스쿨존에서 자동 감속하는 카카오 자율주행",
+      "url": "https://www.hankyung.com/article/2026090174101",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T08:37:10+00:00"
+    },
+    {
+      "id": "5867456926999256748",
+      "title": "내년 R&D 예산 '역대 최대'…AI 분야는 9.4조, 85% 증가",
+      "url": "https://www.hankyung.com/article/2026090174081",
+      "source": "한국경제_IT",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-09-01T08:36:27+00:00"
+    },
+    {
+      "id": "4320762360168028442",
+      "title": "쏘카, 기업용 요금제 개편…상시 추가할인 혜택 추가",
+      "url": "https://www.hankyung.com/article/2026090174091",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T08:34:43+00:00"
+    },
+    {
+      "id": "4444162480888728700",
+      "title": "워시 \"저축 과잉 시대 저물어…이젠 투자 급증의 시기\"",
+      "url": "https://www.hankyung.com/article/2026090173691",
+      "source": "한국경제_국제",
+      "topics": [
+        "금융(국내)"
+      ],
+      "date": "2026-09-01T08:26:01+00:00"
+    },
+    {
+      "id": "750507780421329297",
+      "title": "노타, '독파모' 이어 '모두의 AI' 참여…SKT 컨소시엄서 AI 최적화 맡아",
+      "url": "https://www.hankyung.com/article/202609017170i",
+      "source": "한국경제_IT",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-09-01T07:36:24+00:00"
+    },
+    {
+      "id": "3431409887032457287",
+      "title": "정부, R&D 예산 역대 최대 39.5조 편성 [2027년 예산안]",
+      "url": "https://www.hankyung.com/article/202609017087i",
+      "source": "한국경제_IT",
+      "topics": [
+        "정부정책"
+      ],
+      "date": "2026-09-01T07:10:46+00:00"
+    },
+    {
+      "id": "117761024295868538",
+      "title": "中 전기차 출혈경쟁 직격탄…BYD 순이익 20% 줄고 주가 5% 급락",
+      "url": "https://www.hankyung.com/article/202609016965i",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T06:49:07+00:00"
+    },
+    {
+      "id": "4490563637946700271",
+      "title": "AI 열풍에 주가 세 배 올랐는데…\"지금 가장 싼 주식\"",
+      "url": "https://www.hankyung.com/article/202609016831i",
+      "source": "한국경제_국제",
+      "topics": [
+        "AI",
+        "금융(국내)"
+      ],
+      "date": "2026-09-01T06:29:42+00:00"
+    },
+    {
+      "id": "1858714146416432661",
+      "title": "“삼성바이오, 주주배정 유증…성장 로드맵보다 커진 주주부담”",
+      "url": "https://www.hankyung.com/article/202609016887i",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T06:21:33+00:00"
+    },
+    {
+      "id": "2168800365516278432",
+      "title": "다카이치 취임 1년도 안 돼 금리 두 배…日 국채 3% 돌파 [도쿄나우]",
+      "url": "https://www.hankyung.com/article/202609016875i",
+      "source": "한국경제_국제",
+      "topics": [
+        "금융(국내)"
+      ],
+      "date": "2026-09-01T06:19:37+00:00"
+    },
+    {
+      "id": "2806730593898463121",
+      "title": "네팔 외무장관 \"자선 아닌 법적 책임\"…미·중·인 정조준",
+      "url": "https://www.hankyung.com/article/2026090167817",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T06:13:01+00:00"
+    },
+    {
+      "id": "7546425895055626483",
+      "title": "[속보] 네팔·중국 대홍수 사망자 1000명 넘겨…실종자 4462명",
+      "url": "https://www.hankyung.com/article/2026090168377",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T06:05:51+00:00"
+    },
+    {
+      "id": "8321484809161956153",
+      "title": "한경바이오인사이트 Vol.71 - 2026년 8월호",
+      "url": "https://www.hankyung.com/article/202607306136i",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T06:00:08+00:00"
+    },
+    {
+      "id": "5502855359486229471",
+      "title": "[속보] 네팔 홍수·산사태 사망자 987명…전체 사망자 1000명 넘어",
+      "url": "https://www.hankyung.com/article/2026090167707",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T05:54:53+00:00"
+    },
+    {
+      "id": "4775238334316546295",
+      "title": "네이버·카카오 어쩌나…\"판교 노조 5만명\" 통합교섭 '시험대' [김대영의 노무스쿨]",
+      "url": "https://www.hankyung.com/article/202608314963g",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T05:49:03+00:00"
+    },
+    {
+      "id": "3117564084996222936",
+      "title": "\"활동하려면 '하나의 중국' 지지해\"…中, 트와이스 쯔위 또 압박?",
+      "url": "https://www.hankyung.com/article/202609016481H",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T05:19:55+00:00"
+    },
+    {
+      "id": "6995836780845251865",
+      "title": "AI 돌리고 3D 설계하면서 발열까지 잡는 '괴물 컴퓨터' 나왔다",
+      "url": "https://www.hankyung.com/article/202609016412g",
+      "source": "한국경제_IT",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-09-01T04:37:12+00:00"
+    },
+    {
+      "id": "6762506522470642504",
+      "title": "[단독] 카나프테라퓨틱스 “황반변성 치료제 연내 기술수출 추진”",
+      "url": "https://www.hankyung.com/article/202609015521i",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T02:21:13+00:00"
+    },
+    {
+      "id": "2417753373975507442",
+      "title": "국내 첫 첨단재생의료 치료 개시에…바이젠셀 장중 상한가",
+      "url": "https://www.hankyung.com/article/202609015931i",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T01:52:13+00:00"
+    },
+    {
+      "id": "1517179871372388866",
+      "title": "美 기업이익 5년 만에 최대폭 증가…관세 환급·소비가 밀어올렸다",
+      "url": "https://www.hankyung.com/article/202609015483i",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T01:34:50+00:00"
+    },
+    {
+      "id": "8537849046362983313",
+      "title": "\"없으면 못 살아\" 난리…여고생도 푹 빠진 '찐친' 정체 [트렌드+]",
+      "url": "https://www.hankyung.com/article/202608314946g",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T01:09:41+00:00"
+    },
+    {
+      "id": "8390603404115862285",
+      "title": "AI 음악은 도둑질인가 혁신인가…'소송 vs 제휴' 엇갈린 행보",
+      "url": "https://www.hankyung.com/article/202609015477i",
+      "source": "한국경제_국제",
+      "topics": [
+        "AI"
+      ],
+      "date": "2026-09-01T01:00:30+00:00"
+    },
+    {
+      "id": "3157645749602702665",
+      "title": "“삼성바이오로직스, 3조 유증 '합리적 선택'…글로벌 CDMO 경쟁력 높인다”",
+      "url": "https://www.hankyung.com/article/202608312987i",
+      "source": "한국경제_IT",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T01:00:06+00:00"
+    },
+    {
+      "id": "2523321988462371805",
+      "title": "\"스마트폰 사러 갔다가 통장도 만든다\"…일본에 무슨 일이 [도쿄나우]",
+      "url": "https://www.hankyung.com/article/202609015071i",
+      "source": "한국경제_국제",
+      "topics": [
+        "기타"
+      ],
+      "date": "2026-09-01T00:13:58+00:00"
+    },
+    {
+      "id": "303354976798232144",
+      "title": "Asia’s 75-point gap: Moving consumers from retirement angst to action",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/asias-75-point-gap-moving-consumers-from-retirement-angst-to-action",
+      "source": "McKinsey",
+      "topics": [
+        "IT"
+      ],
+      "date": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "5682682965242100976",
+      "title": "Investing in the energy transition: Time to look at whole-system value",
+      "url": "https://www.mckinsey.com/industries/energy-and-materials/our-insights/investing-in-the-energy-transition-time-to-look-at-whole-system-value",
+      "source": "McKinsey",
+      "topics": [
+        "금융(국제)",
+        "IT"
+      ],
+      "date": "2026-09-01T00:00:00+00:00"
+    },
+    {
+      "id": "6924912252016079520",
       "title": "HEM파마, 암웨이 손잡고 마이크로바이옴 상용화…글로벌 출시 본격화",
       "url": "https://www.hankyung.com/article/202609015405i",
       "source": "한국경제_IT",
@@ -35,7 +1044,7 @@
       "date": "2026-08-31T23:58:59+00:00"
     },
     {
-      "id": "3273135406533116526",
+      "id": "5559835718968401588",
       "title": "온코닉 '자큐보', 기존 PPI·P-CAB 치료 환자서도 위식도역류질환 증상 개선",
       "url": "https://www.hankyung.com/article/202609015377i",
       "source": "한국경제_IT",
@@ -45,7 +1054,7 @@
       "date": "2026-08-31T23:52:08+00:00"
     },
     {
-      "id": "3295190315478190309",
+      "id": "3531111484629873364",
       "title": "80년생 차베스 지지자가 만들어낸 美-베네수 유전거래 [이상은의 워싱턴나우]",
       "url": "https://www.hankyung.com/article/202609015325i",
       "source": "한국경제_국제",
@@ -55,7 +1064,7 @@
       "date": "2026-08-31T23:42:09+00:00"
     },
     {
-      "id": "6734999982158774727",
+      "id": "651623575833365494",
       "title": "동구바이오제약, 조직개편 단행…경영·미래전략 보고체계 일원화",
       "url": "https://www.hankyung.com/article/202609015316i",
       "source": "한국경제_IT",
@@ -65,7 +1074,7 @@
       "date": "2026-08-31T23:34:46+00:00"
     },
     {
-      "id": "2740495711267836791",
+      "id": "6667923504382119929",
       "title": "유한양행, 케이메디허브와 신약개발 협력…공동연구 확대",
       "url": "https://www.hankyung.com/article/202609015304i",
       "source": "한국경제_IT",
@@ -75,7 +1084,7 @@
       "date": "2026-08-31T23:31:20+00:00"
     },
     {
-      "id": "3726863115506024491",
+      "id": "7269236298097107686",
       "title": "\"우주에 흔적 남겼다\" 팀 쿡, 애플 CEO 퇴임…신임 터너스에 AI 과제",
       "url": "https://www.hankyung.com/article/2026090152517",
       "source": "한국경제_국제",
@@ -85,8 +1094,8 @@
       "date": "2026-08-31T23:30:20+00:00"
     },
     {
-      "id": "3726398630042186189",
-      "title": "한방씩 주고 받은 베선트 VS 워시...싸울 일만 남았다 [이상은의 워싱턴나우]",
+      "id": "7866144053188937741",
+      "title": "한방씩 주고 받은 베선트 VS 워시…싸울 일만 남았다 [이상은의 워싱턴나우]",
       "url": "https://www.hankyung.com/article/202609015143i",
       "source": "한국경제_국제",
       "topics": [
@@ -95,17 +1104,7 @@
       "date": "2026-08-31T23:26:36+00:00"
     },
     {
-      "id": "6840058825914744162",
-      "title": "[외신 에스프레소 영상] 지갑 연 소비자, 돈 쏟아붓는 AI...美 기업 실적 5년 만에 최고",
-      "url": "https://www.hankyung.com/article/202609015204i",
-      "source": "한국경제_경제",
-      "topics": [
-        "AI"
-      ],
-      "date": "2026-08-31T23:17:35+00:00"
-    },
-    {
-      "id": "765016204984277957",
+      "id": "2458286663322827166",
       "title": "보로노이, 세계폐암학회서 VRN11·VRN10 연구 6건 발표",
       "url": "https://www.hankyung.com/article/202609015242i",
       "source": "한국경제_IT",
@@ -115,17 +1114,7 @@
       "date": "2026-08-31T23:17:16+00:00"
     },
     {
-      "id": "8957804865141372305",
-      "title": "\"GS25 1+1 뭐 있지?\"…챗GPT가 실시간으로 찾아준다",
-      "url": "https://www.hankyung.com/article/202609015151g",
-      "source": "한국경제_경제",
-      "topics": [
-        "AI"
-      ],
-      "date": "2026-08-31T23:16:00+00:00"
-    },
-    {
-      "id": "3386172668276998850",
+      "id": "8523481254038998535",
       "title": "EU, 챗GPT '초대형 검색엔진' 지정…디지털법 규제 대상 적용",
       "url": "https://www.hankyung.com/article/2026090152117",
       "source": "한국경제_국제",
@@ -137,7 +1126,7 @@
       "date": "2026-08-31T23:15:58+00:00"
     },
     {
-      "id": "81827431207773702",
+      "id": "1542874051154188686",
       "title": "에이프릴바이오, siRNA-AOC 사업 본격화…RNA 전문가 영입",
       "url": "https://www.hankyung.com/article/202609015213i",
       "source": "한국경제_IT",
@@ -147,17 +1136,7 @@
       "date": "2026-08-31T23:13:47+00:00"
     },
     {
-      "id": "5386007845082321158",
-      "title": "노트북 비싸져서 난리인데…'145만원 LG 신상' 등장",
-      "url": "https://www.hankyung.com/article/202609015209g",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T23:12:34+00:00"
-    },
-    {
-      "id": "8492362456490296510",
+      "id": "2439244826633707560",
       "title": "HLB “간암신약, 연령 관계없이 치료효과…젊은 환자서도 PFS 개선”",
       "url": "https://www.hankyung.com/article/202609015203i",
       "source": "한국경제_IT",
@@ -167,7 +1146,7 @@
       "date": "2026-08-31T23:08:45+00:00"
     },
     {
-      "id": "4808156294623642370",
+      "id": "4595859221626399623",
       "title": "한학자 실형에 日 언론 대서특필…“일본인 신자 결속은 여전”",
       "url": "https://www.hankyung.com/article/202609015107i",
       "source": "한국경제_국제",
@@ -177,7 +1156,7 @@
       "date": "2026-08-31T23:08:11+00:00"
     },
     {
-      "id": "4941443675599769537",
+      "id": "4811132612052922941",
       "title": "\"취업난에도 대기업 포기 못 해\"…구직자 희망연봉 4470만원",
       "url": "https://www.hankyung.com/article/202609015154g",
       "source": "한국경제_IT",
@@ -187,18 +1166,7 @@
       "date": "2026-08-31T23:04:08+00:00"
     },
     {
-      "id": "9078231314370094081",
-      "title": "[외신 에스프레소] 美 정부, 세계 최대급 유전에 직접 투자…'석유 재벌' 노린다",
-      "url": "https://www.hankyung.com/article/202609015153i",
-      "source": "한국경제_경제",
-      "topics": [
-        "금융(국내)",
-        "정부정책"
-      ],
-      "date": "2026-08-31T22:59:05+00:00"
-    },
-    {
-      "id": "4560298953273976911",
+      "id": "5387688500955638167",
       "title": "'그림자 日銀총재' 베선트…일본에 또 금리인상 압박",
       "url": "https://www.hankyung.com/article/202609015144i",
       "source": "한국경제_국제",
@@ -208,117 +1176,7 @@
       "date": "2026-08-31T22:58:52+00:00"
     },
     {
-      "id": "6283776428076160766",
-      "title": "'축구의 신' 메시, 대표팀 은퇴 선언…\"더이상 낼 힘 없다\"",
-      "url": "https://www.hankyung.com/article/202609015130H",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T22:55:07+00:00"
-    },
-    {
-      "id": "8669033790042979068",
-      "title": "'9만㎡' 트럼프 백악관 연회장 공사 계속된다…美대법원 재개 허용",
-      "url": "https://www.hankyung.com/article/2026090151297",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T22:54:40+00:00"
-    },
-    {
-      "id": "5417977446733090936",
-      "title": "국민연금 가입하고도 장애연금을 못 받을 수 있나요?",
-      "url": "https://www.hankyung.com/article/202608302192i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T22:32:14+00:00"
-    },
-    {
-      "id": "4852109957593050829",
-      "title": "트럼프, 워시에 또 금리 인하 압박…\"美금리 세계 최저여야\"",
-      "url": "https://www.hankyung.com/article/2026090150947",
-      "source": "한국경제_국제",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T22:17:53+00:00"
-    },
-    {
-      "id": "6251179184483639871",
-      "title": "생산비 절감·기술 혁신…'좋은 독점'은 소비자에 이득",
-      "url": "https://www.hankyung.com/article/2026083145001",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T22:00:11+00:00"
-    },
-    {
-      "id": "9137114866648747623",
-      "title": "페트로차이나 순익 22%증가…중국 연료수요는 둔화",
-      "url": "https://www.hankyung.com/article/202608314902i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T22:00:08+00:00"
-    },
-    {
-      "id": "1006339833017737326",
-      "title": "'K김' 불티나게 팔린다더니…뜻밖의 상황 벌어졌다 [프라이스&]",
-      "url": "https://www.hankyung.com/article/202608314918i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T22:00:04+00:00"
-    },
-    {
-      "id": "315432444613587534",
-      "title": "기내서 공황장애 승객 만나면 어떻게…파라타항공, 승무원 대응교육 실시",
-      "url": "https://www.hankyung.com/article/202609014990i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T21:54:48+00:00"
-    },
-    {
-      "id": "4513391708646552222",
-      "title": "시진핑·푸틴, 정상회담…\"세계 다극화·전략적 협력 강화\"",
-      "url": "https://www.hankyung.com/article/2026090150437",
-      "source": "한국경제_국제",
-      "topics": [
-        "컨설팅"
-      ],
-      "date": "2026-08-31T21:39:45+00:00"
-    },
-    {
-      "id": "6701900080457680986",
-      "title": "현대차 노사, 임협 타결…성과급 400%+1270만원 지급",
-      "url": "https://www.hankyung.com/article/2026090150467",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T21:36:31+00:00"
-    },
-    {
-      "id": "3245581599305883833",
-      "title": "치솟는 휘발윳값에 골머리 앓는 트럼프, 美 정유업계 경영진 소집",
-      "url": "https://www.hankyung.com/article/2026090150197",
-      "source": "한국경제_국제",
-      "topics": [
-        "컨설팅"
-      ],
-      "date": "2026-08-31T21:11:48+00:00"
-    },
-    {
-      "id": "4341778501474377743",
+      "id": "4918867142547192033",
       "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
       "source": "Dark Reading",
@@ -329,37 +1187,7 @@
       "date": "2026-08-31T21:08:46+00:00"
     },
     {
-      "id": "1874315397202140960",
-      "title": "\"로또는커녕 분담금 폭탄\"…서울 아파트 재건축 덮친 복병 [프라이스&]",
-      "url": "https://www.hankyung.com/article/202608276672i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T21:00:22+00:00"
-    },
-    {
-      "id": "2219571171724478093",
-      "title": "\"디젤 천하 유럽서 이럴 줄이야\"…불티나게 팔린 한국 전기車",
-      "url": "https://www.hankyung.com/article/202608314371g",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T21:00:17+00:00"
-    },
-    {
-      "id": "5658652688334599821",
-      "title": "\"관세 대신 투자\"…트럼프 움직인 日카드, 한국도 벤치마크 [최만수의 재팬 인사이트]",
-      "url": "https://www.hankyung.com/article/202608314475i",
-      "source": "한국경제_국제",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T21:00:04+00:00"
-    },
-    {
-      "id": "7208601679231177420",
+      "id": "5074471344148597397",
       "title": "'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks",
       "url": "https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks",
       "source": "Dark Reading",
@@ -371,7 +1199,19 @@
       "date": "2026-08-31T20:25:36+00:00"
     },
     {
-      "id": "388393119702601522",
+      "id": "6285666831287409929",
+      "title": "The Guardrails Debate: Security Researcher Changes His Mind",
+      "url": "https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind",
+      "source": "Dark Reading",
+      "topics": [
+        "AI",
+        "IT",
+        "정보보안"
+      ],
+      "date": "2026-08-31T20:09:24+00:00"
+    },
+    {
+      "id": "5543712062734544308",
       "title": "Is Someone Hacking DoD Refrigerators?",
       "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
       "source": "Schneier on Security",
@@ -383,7 +1223,7 @@
       "date": "2026-08-31T18:20:35+00:00"
     },
     {
-      "id": "2826044705836444350",
+      "id": "5488406972671546778",
       "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
       "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
       "source": "MIT Tech Review",
@@ -395,7 +1235,7 @@
       "date": "2026-08-31T18:00:00+00:00"
     },
     {
-      "id": "7075182193999708532",
+      "id": "8782847472296454099",
       "title": "AI Model Rules Are Not Security Controls",
       "url": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
       "source": "Dark Reading",
@@ -407,27 +1247,7 @@
       "date": "2026-08-31T17:34:26+00:00"
     },
     {
-      "id": "6282304532613479999",
-      "title": "[포토] '反서방 연대'…푸틴·시진핑, 석달 만에 또 회동",
-      "url": "https://www.hankyung.com/article/2026083149231",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T16:50:09+00:00"
-    },
-    {
-      "id": "2132631194195108726",
-      "title": "'종말론' 해소에 \"SaaS주가 10월까지 더 오른다\"[박신영의 개장전 요것만]",
-      "url": "https://www.hankyung.com/article/202609014977i",
-      "source": "한국경제_국제",
-      "topics": [
-        "IT"
-      ],
-      "date": "2026-08-31T16:40:03+00:00"
-    },
-    {
-      "id": "6682544906937444933",
+      "id": "6724029438846540379",
       "title": "Debian won&#8217;t ban AI code from its Linux distribution",
       "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
       "source": "The Verge AI",
@@ -438,87 +1258,7 @@
       "date": "2026-08-31T15:34:58+00:00"
     },
     {
-      "id": "4613417402650655837",
-      "title": "거물 앤트로픽 등판에…9월 이후 美공모기업들 초비상",
-      "url": "https://www.hankyung.com/article/202609014967i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T15:28:27+00:00"
-    },
-    {
-      "id": "2983674061696026834",
-      "title": "국제유가 상승에 인플레 부각…美 주식·채권 동반 하락",
-      "url": "https://www.hankyung.com/article/202608314949i",
-      "source": "한국경제_경제",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T14:40:19+00:00"
-    },
-    {
-      "id": "1286885136690492724",
-      "title": "[속보] 신속대응팀 \"헬기 수색 등에도 유의미한 결과는 아직\"",
-      "url": "https://www.hankyung.com/article/2026083149587",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T14:40:17+00:00"
-    },
-    {
-      "id": "3067683397966440207",
-      "title": "[속보] 신속대응팀 \"네팔군과 수색 협의…드론 활용 수색도 했다\"",
-      "url": "https://www.hankyung.com/article/2026083149577",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T14:39:31+00:00"
-    },
-    {
-      "id": "5288974077961697394",
-      "title": "[속보] 네팔 신속대응팀 \"둔체까지 육로로 도착…활동 시작\"",
-      "url": "https://www.hankyung.com/article/2026083149567",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T14:38:45+00:00"
-    },
-    {
-      "id": "1287259961248533261",
-      "title": "[속보] 박재경 주네팔 신임대사 \"국민 수색·구조에 최선의 노력\"",
-      "url": "https://www.hankyung.com/article/2026083149487",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T14:26:43+00:00"
-    },
-    {
-      "id": "5848160545304262037",
-      "title": "美 10년물 국채 4.75% 돌파…작년 1월 이후 최고치",
-      "url": "https://www.hankyung.com/article/202608314942i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T14:18:43+00:00"
-    },
-    {
-      "id": "3665856807048539524",
-      "title": "배우 앤서니 홉킨스, 작곡으로도 정상 '우뚝'…英 클래식차트 1위",
-      "url": "https://www.hankyung.com/article/2026083149327",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T14:06:30+00:00"
-    },
-    {
-      "id": "4484987572807484181",
+      "id": "4058199053568135451",
       "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
       "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
       "source": "The Verge AI",
@@ -529,7 +1269,7 @@
       "date": "2026-08-31T14:00:00+00:00"
     },
     {
-      "id": "1611149087172950851",
+      "id": "6251283293313569481",
       "title": "ChatGPT to face tougher regulation in the EU",
       "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
       "source": "The Verge AI",
@@ -541,119 +1281,7 @@
       "date": "2026-08-31T13:27:36+00:00"
     },
     {
-      "id": "5232892072174757764",
-      "title": "중노위 \"현대차, 대리점 영업사원과 교섭 의무 없다\"…초심 유지",
-      "url": "https://www.hankyung.com/article/2026083149127",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T13:20:37+00:00"
-    },
-    {
-      "id": "8407256691231758169",
-      "title": "엔비디아, 대만 반도체업체 미디어텍에 4.8조원 투자",
-      "url": "https://www.hankyung.com/article/202608314903i",
-      "source": "한국경제_경제",
-      "topics": [
-        "금융(국내)",
-        "IT"
-      ],
-      "date": "2026-08-31T13:19:35+00:00"
-    },
-    {
-      "id": "8580074863062025624",
-      "title": "화웨이, 상반기 순이익 36% 급감…\"R&D 투자·메모리 원가 부담\"",
-      "url": "https://www.hankyung.com/article/2026083149107",
-      "source": "한국경제_경제",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T13:03:50+00:00"
-    },
-    {
-      "id": "7271309630502486648",
-      "title": "Instagram cracks down on AI accounts pretending to be human",
-      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-      "source": "The Verge AI",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-31T13:00:00+00:00"
-    },
-    {
-      "id": "7002760432045609309",
-      "title": "올해 두 번째 만난 러·중 정상…푸틴 \"러·중 협력 전 방위 발전\"",
-      "url": "https://www.hankyung.com/article/2026083148977",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T12:57:34+00:00"
-    },
-    {
-      "id": "3950825151088205265",
-      "title": "\"AI 과열·레버리지 결합, 복합 충격 온다\"…BOE 총재 경고",
-      "url": "https://www.hankyung.com/article/2026083148947",
-      "source": "한국경제_경제",
-      "topics": [
-        "AI"
-      ],
-      "date": "2026-08-31T12:34:56+00:00"
-    },
-    {
-      "id": "7989298714198000894",
-      "title": "日 엔화 다시 약세…베선트 \"BOJ 올바른 결정 기대\" 금리인상 간접 압박",
-      "url": "https://www.hankyung.com/article/202608314879i",
-      "source": "한국경제_경제",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T12:29:00+00:00"
-    },
-    {
-      "id": "3121236820507454609",
-      "title": "네이버·카카오 컨설팅 받았더니…소상공인 매출 '껑충'",
-      "url": "https://www.hankyung.com/article/2026083145631",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T12:23:00+00:00"
-    },
-    {
-      "id": "8662801049641959848",
-      "title": "\"24만원에 산 나무통이 5억?\"…81세 남성의 '기막힌 반전'",
-      "url": "https://www.hankyung.com/article/2026083148187",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T11:24:10+00:00"
-    },
-    {
-      "id": "5164698430494059461",
-      "title": "HD건설기계, 877억 유증…인도에 지게차 공장 건설",
-      "url": "https://www.hankyung.com/article/2026083148121",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T11:19:19+00:00"
-    },
-    {
-      "id": "5730370346769838584",
-      "title": "\"전쟁에 폭염까지\"…빵·설탕·코코아 값 오른다",
-      "url": "https://www.hankyung.com/article/202608314801i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T11:15:07+00:00"
-    },
-    {
-      "id": "939197675823696306",
+      "id": "5806911389296401875",
       "title": "Hiding Prompt Injection in Legal Filing",
       "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
       "source": "Schneier on Security",
@@ -664,7 +1292,7 @@
       "date": "2026-08-31T11:03:40+00:00"
     },
     {
-      "id": "6863572429699845297",
+      "id": "5561074739565522020",
       "title": "Tying Purpose to Performance",
       "url": "https://sloanreview.mit.edu/article/tying-purpose-to-performance/",
       "source": "MIT Sloan",
@@ -675,7 +1303,7 @@
       "date": "2026-08-31T11:00:44+00:00"
     },
     {
-      "id": "3955749437557503800",
+      "id": "320937839199392704",
       "title": "A Compelling Story Can Disarm Even a Skeptical Negotiator",
       "url": "https://sloanreview.mit.edu/article/a-compelling-story-can-disarm-even-a-skeptical-negotiator/",
       "source": "MIT Sloan",
@@ -685,7 +1313,7 @@
       "date": "2026-08-31T11:00:41+00:00"
     },
     {
-      "id": "4818903441178851296",
+      "id": "8708437973188656341",
       "title": "Three Things to Know About Customer Resistance to AI",
       "url": "https://sloanreview.mit.edu/article/three-things-to-know-about-customer-resistance-to-ai/",
       "source": "MIT Sloan",
@@ -695,27 +1323,7 @@
       "date": "2026-08-31T11:00:06+00:00"
     },
     {
-      "id": "5550102425374983613",
-      "title": "추석 코앞인데 어쩌나…\"두부 공장 문 닫을 판\" 초비상",
-      "url": "https://www.hankyung.com/article/2026083145871",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T11:00:05+00:00"
-    },
-    {
-      "id": "1593242716266474930",
-      "title": "'절대 강자'의 굴욕…\"스벅 대신 여기 간다\" 등 돌리자 결국 [트렌드+]",
-      "url": "https://www.hankyung.com/article/202608314344g",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T11:00:03+00:00"
-    },
-    {
-      "id": "4100420023992146483",
+      "id": "5989298021967592620",
       "title": "Why Employees With Working-Class Roots Are Better at Getting Their Ideas Heard",
       "url": "https://sloanreview.mit.edu/article/why-employees-with-working-class-roots-are-better-at-getting-their-ideas-heard/",
       "source": "MIT Sloan",
@@ -725,77 +1333,7 @@
       "date": "2026-08-31T11:00:02+00:00"
     },
     {
-      "id": "2546239489055285429",
-      "title": "[포토] 금융시장 흔드는 두 남자 '금리 대립각'",
-      "url": "https://www.hankyung.com/article/2026083148271",
-      "source": "한국경제_국제",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T10:47:35+00:00"
-    },
-    {
-      "id": "3218763358719403696",
-      "title": "美, 캐나다산 자동차에 50% 관세 부과 시 최대 피해자는?",
-      "url": "https://www.hankyung.com/article/202608314760i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T10:35:08+00:00"
-    },
-    {
-      "id": "8426810907179320418",
-      "title": "109세 때 올림픽 성화 봉송…日 최고령자 115세로 사망",
-      "url": "https://www.hankyung.com/article/2026083147957",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T10:29:46+00:00"
-    },
-    {
-      "id": "2340057704943978824",
-      "title": "베선트 \"G20, 막대한 무역흑자 중국과의 교역조건 재검토해야\"",
-      "url": "https://www.hankyung.com/article/202608314785i",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T10:00:37+00:00"
-    },
-    {
-      "id": "4862488630429065861",
-      "title": "소주 시장 쪼그라드는데…더 뜨거워진 점유율 경쟁",
-      "url": "https://www.hankyung.com/article/2026083146271",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:59:59+00:00"
-    },
-    {
-      "id": "1366394048851432497",
-      "title": "네이버 손잡은 컬리, e커머스 수익성 1위",
-      "url": "https://www.hankyung.com/article/2026083146281",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:57:26+00:00"
-    },
-    {
-      "id": "2813571189001679874",
-      "title": "무신사, 상반기 최대 매출…오프라인·해외 사업 성장",
-      "url": "https://www.hankyung.com/article/2026083146291",
-      "source": "한국경제_경제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:56:39+00:00"
-    },
-    {
-      "id": "222310333514171674",
+      "id": "8545195343352963350",
       "title": "엔비디아 손잡아야 하나…K-AI칩 '딜레마'",
       "url": "https://www.hankyung.com/article/2026083145521",
       "source": "한국경제_IT",
@@ -805,7 +1343,7 @@
       "date": "2026-08-31T09:55:43+00:00"
     },
     {
-      "id": "972338211251483974",
+      "id": "8488295026781460071",
       "title": "우버, 韓 자율주행 뛰어든다",
       "url": "https://www.hankyung.com/article/2026083145531",
       "source": "한국경제_IT",
@@ -815,7 +1353,7 @@
       "date": "2026-08-31T09:53:44+00:00"
     },
     {
-      "id": "397842811636160207",
+      "id": "2097260405822015261",
       "title": "'금융 AX' 힘주는 KT…5대은행 중 4곳 구축",
       "url": "https://www.hankyung.com/article/2026083145541",
       "source": "한국경제_IT",
@@ -825,7 +1363,7 @@
       "date": "2026-08-31T09:52:53+00:00"
     },
     {
-      "id": "3863145376215706104",
+      "id": "4928301900407507433",
       "title": "통신 3사 \"패스 신분증 QR 검증하세요\"",
       "url": "https://www.hankyung.com/article/2026083145561",
       "source": "한국경제_IT",
@@ -835,18 +1373,7 @@
       "date": "2026-08-31T09:52:07+00:00"
     },
     {
-      "id": "2511217687726382954",
-      "title": "최태원 \"日 반도체공장 투자 확정된 것 없다…검토 끝나면 공개\"",
-      "url": "https://www.hankyung.com/article/202608314783i",
-      "source": "한국경제_국제",
-      "topics": [
-        "금융(국내)",
-        "IT"
-      ],
-      "date": "2026-08-31T09:51:54+00:00"
-    },
-    {
-      "id": "7552332738461572457",
+      "id": "8415843992954911752",
       "title": "158만명 개인정보 유출된 GS리테일에 128억 과징금",
       "url": "https://www.hankyung.com/article/2026083145551",
       "source": "한국경제_IT",
@@ -856,249 +1383,20 @@
       "date": "2026-08-31T09:51:06+00:00"
     },
     {
-      "id": "1158556240111590452",
-      "title": "다카이치 야스쿠니 '원격 참배'…일본인 37% \"적절했다\"",
-      "url": "https://www.hankyung.com/article/2026083147267",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:44:54+00:00"
-    },
-    {
-      "id": "8328996401303217095",
-      "title": "美, 이란 공격 재개…국제유가 90달러 돌파",
-      "url": "https://www.hankyung.com/article/2026083146221",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:43:35+00:00"
-    },
-    {
-      "id": "2566429482363275842",
-      "title": "中 희토류 공급망 탈피 안간힘…美·日, 비싼값 주고 호주산 산다",
-      "url": "https://www.hankyung.com/article/2026083146191",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:43:04+00:00"
-    },
-    {
-      "id": "6769163094938455379",
-      "title": "네팔, 수력발전소 실종자 구조작업에 총력",
-      "url": "https://www.hankyung.com/article/2026083146151",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:42:25+00:00"
-    },
-    {
-      "id": "4583273752275872474",
-      "title": "중남미 리튬·구리 부국…배터리판 OPEC 만드나",
-      "url": "https://www.hankyung.com/article/2026083146211",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:41:04+00:00"
-    },
-    {
-      "id": "5290099581622470709",
-      "title": "'허블 200배 성능' 美 로먼 우주망원경 발사",
-      "url": "https://www.hankyung.com/article/2026083146181",
-      "source": "한국경제_국제",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T09:38:15+00:00"
-    },
-    {
-      "id": "8769055205964769464",
-      "title": "처방액 5000억 치매약 퇴출 기로",
-      "url": "https://www.hankyung.com/article/2026083145731",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T08:44:35+00:00"
-    },
-    {
-      "id": "1024413229299757098",
-      "title": "\"기술력 탄탄하고 시장 크다\"…日에 눈 돌리는 韓 제약사",
-      "url": "https://www.hankyung.com/article/2026083145671",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T08:43:22+00:00"
-    },
-    {
-      "id": "1457470495643479182",
-      "title": "와이브레인 \"우울증 치료, 집에서도 가능\"",
-      "url": "https://www.hankyung.com/article/2026083145681",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T08:42:32+00:00"
-    },
-    {
-      "id": "7116744146362443098",
-      "title": "온코닉, 항암신약 美 특허 확보",
-      "url": "https://www.hankyung.com/article/2026083145711",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T08:41:46+00:00"
-    },
-    {
-      "id": "7411648659137373794",
-      "title": "'천신만고' 끝 개발…신약특허는 몇 년일까",
-      "url": "https://www.hankyung.com/article/2026083145661",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T08:41:09+00:00"
-    },
-    {
-      "id": "3877155127147330983",
-      "title": "동아제약, 더마화장품 '파티온' 美 세포라 입점",
-      "url": "https://www.hankyung.com/article/202608314320i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T07:32:05+00:00"
-    },
-    {
-      "id": "9147352740338056297",
-      "title": "\"폰 안 팔려 난리인데, 삼성만 대박\"…'대이변' 벌어진 곳",
-      "url": "https://www.hankyung.com/article/202608313909g",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T05:45:00+00:00"
-    },
-    {
-      "id": "6841764612724013222",
-      "title": "삼성바이오로직스, 폴리펩타이드그룹 인수 위한 공개매수 절차 착수",
-      "url": "https://www.hankyung.com/article/202608313813i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T05:12:34+00:00"
-    },
-    {
-      "id": "4801239662725851269",
-      "title": "美 특허 장벽 높인 온코닉테라퓨틱스…주가 22% 급등",
-      "url": "https://www.hankyung.com/article/202608313806i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T05:09:52+00:00"
-    },
-    {
-      "id": "4706605111193102504",
-      "title": "알테오젠, 키트루다 SC 첫 판매 마일스톤 달성…344억원 수령",
-      "url": "https://www.hankyung.com/article/202608313693i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T04:24:38+00:00"
-    },
-    {
-      "id": "8726489797013533920",
-      "title": "'유행 어디서 찾나 봤더니'…20대는 SNS, 50대는 TV",
-      "url": "https://www.hankyung.com/article/202608313564H",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T02:56:15+00:00"
-    },
-    {
-      "id": "4596516160469977290",
-      "title": "입셀 iPSC 연골치료제 \"1년 추적서 연골 결손 감소·두께 회복\"",
-      "url": "https://www.hankyung.com/article/202608313343i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T01:58:56+00:00"
-    },
-    {
-      "id": "333476945223125875",
-      "title": "브레인유, 반려동물 '뇌파 마취 모니터링' 임상연구 나선다",
-      "url": "https://www.hankyung.com/article/202608313332i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T01:54:29+00:00"
-    },
-    {
-      "id": "3838774501840924854",
-      "title": "82억원 투입해 줄기세포 실험 자동화…'범용 자율실험실' 구축 착수",
-      "url": "https://www.hankyung.com/article/202608313254i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T01:49:44+00:00"
-    },
-    {
-      "id": "7189553956727903005",
-      "title": "이동훈 SK바이오팜 사장, 1.8억 규모 자사 주식 매입",
-      "url": "https://www.hankyung.com/article/202608313169i",
-      "source": "한국경제_IT",
-      "topics": [
-        "금융(국내)"
-      ],
-      "date": "2026-08-31T01:18:36+00:00"
-    },
-    {
-      "id": "302148057081894035",
-      "title": "JW중외제약, '프렌즈' 브랜드 확장한 캔디형 '아이크런치' 출시",
-      "url": "https://www.hankyung.com/article/202608312959i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T00:43:09+00:00"
-    },
-    {
-      "id": "4835594260513217177",
-      "title": "온코닉테라퓨틱스, 이중표적항암제 '네수파립' 미 특허 확보",
-      "url": "https://www.hankyung.com/article/202608312874i",
-      "source": "한국경제_IT",
-      "topics": [
-        "기타"
-      ],
-      "date": "2026-08-31T00:32:38+00:00"
-    },
-    {
-      "id": "8782110567671453592",
-      "title": "Revolutionizing semiconductor fab operations with AI",
-      "url": "https://www.mckinsey.com/industries/semiconductors/our-insights/revolutionizing-semiconductor-fab-operations-with-ai",
-      "source": "McKinsey",
+      "id": "6595010420718217819",
+      "title": "This month in security with Tony Anscombe – August 2026 edition",
+      "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/",
+      "source": "ESET Blog",
       "topics": [
         "AI",
+        "금융(국제)",
         "IT",
-        "컨설팅"
+        "정보보안"
       ],
-      "date": "2026-08-31T00:00:00+00:00"
+      "date": "2026-08-31T08:55:00+00:00"
     },
     {
-      "id": "6140090346927076969",
+      "id": "4232908296475554443",
       "title": "Europe on the move: A conversation with Boerse Stuttgart Group’s CEO",
       "url": "https://www.mckinsey.com/featured-insights/insights-on-europe/podcasts-and-videos/europe-on-the-move-a-conversation-with-boerse-stuttgart-groups-ceo",
       "source": "McKinsey",
@@ -1110,7 +1408,19 @@
       "date": "2026-08-31T00:00:00+00:00"
     },
     {
-      "id": "5895024037553714063",
+      "id": "7674862382240503411",
+      "title": "Revolutionizing semiconductor fab operations with AI",
+      "url": "https://www.mckinsey.com/industries/semiconductors/our-insights/revolutionizing-semiconductor-fab-operations-with-ai",
+      "source": "McKinsey",
+      "topics": [
+        "AI",
+        "IT",
+        "컨설팅"
+      ],
+      "date": "2026-08-31T00:00:00+00:00"
+    },
+    {
+      "id": "4284185147814207864",
       "title": "AstraZeneca’s Bob Li on the MARS mission to eliminate cancer",
       "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/astrazenecas-bob-li-on-the-mars-mission-to-eliminate-cancer",
       "source": "McKinsey",
@@ -1121,39 +1431,7 @@
       "date": "2026-08-31T00:00:00+00:00"
     },
     {
-      "id": "8737045159462206022",
-      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-      "source": "The Verge AI",
-      "topics": [
-        "AI"
-      ],
-      "date": "2026-08-30T15:35:10+00:00"
-    },
-    {
-      "id": "4796004840830197736",
-      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "source": "The Verge AI",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-29T18:19:53+00:00"
-    },
-    {
-      "id": "2101667542024393382",
-      "title": "Musicians-turned-detectives are hunting for AI grifters",
-      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-      "source": "The Verge AI",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-29T12:00:00+00:00"
-    },
-    {
-      "id": "613055310957318440",
+      "id": "7889917380910676744",
       "title": "Friday Squid Blogging: Truckload of Squid Spills in Rhode Island",
       "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html",
       "source": "Schneier on Security",
@@ -1165,7 +1443,7 @@
       "date": "2026-08-28T21:02:44+00:00"
     },
     {
-      "id": "1125692144734759985",
+      "id": "6710580335094592805",
       "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
       "source": "Dark Reading",
@@ -1177,7 +1455,7 @@
       "date": "2026-08-28T20:19:22+00:00"
     },
     {
-      "id": "439885094308796032",
+      "id": "8784281389681176390",
       "title": "Offensive Security Investments Surge as AI Threats Increase",
       "url": "https://www.darkreading.com/cybersecurity-operations/offensive-security-investments-surge-ai-threats-increase",
       "source": "Dark Reading",
@@ -1190,19 +1468,7 @@
       "date": "2026-08-28T18:25:43+00:00"
     },
     {
-      "id": "3796363494186926835",
-      "title": "Trump’s EPA wants to let data centers hide their air pollution",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-      "source": "The Verge AI",
-      "topics": [
-        "AI",
-        "금융(국제)",
-        "IT"
-      ],
-      "date": "2026-08-28T16:28:40+00:00"
-    },
-    {
-      "id": "7310522738092032418",
+      "id": "2731746775787174290",
       "title": "You Need Cyber Deception for OT",
       "url": "https://www.darkreading.com/ics-ot-security/you-need-cyber-deception-ot",
       "source": "Dark Reading",
@@ -1214,7 +1480,7 @@
       "date": "2026-08-28T14:00:00+00:00"
     },
     {
-      "id": "5664172347597610251",
+      "id": "8244438234400591710",
       "title": "Defining an AI Kill Switch Is Hard, but Necessary",
       "url": "https://www.darkreading.com/cybersecurity-operations/defining-ai-kill-switch-hard-but-necessary",
       "source": "Dark Reading",
@@ -1225,7 +1491,7 @@
       "date": "2026-08-28T13:30:00+00:00"
     },
     {
-      "id": "4155169976959837714",
+      "id": "181217339913398128",
       "title": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
       "url": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy",
       "source": "Dark Reading",
@@ -1237,7 +1503,7 @@
       "date": "2026-08-28T13:00:00+00:00"
     },
     {
-      "id": "1706348254984155759",
+      "id": "2204881888535836027",
       "title": "The Download: a secretive antiaging drug and joining virtual power plants",
       "url": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
       "source": "MIT Tech Review",
@@ -1248,7 +1514,7 @@
       "date": "2026-08-28T12:35:27+00:00"
     },
     {
-      "id": "5016443026119846376",
+      "id": "6524843528689544019",
       "title": "AI Doesn’t Mean the End of Mathematics—at Least Not Yet",
       "url": "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
       "source": "Schneier on Security",
@@ -1259,7 +1525,7 @@
       "date": "2026-08-28T11:02:22+00:00"
     },
     {
-      "id": "1006739119818624960",
+      "id": "3140096700758676837",
       "title": "How to sign up for a virtual power plant—and decide whether you should",
       "url": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/",
       "source": "MIT Tech Review",
@@ -1269,18 +1535,7 @@
       "date": "2026-08-28T09:00:00+00:00"
     },
     {
-      "id": "8379732754967052866",
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "source": "The Verge AI",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-28T03:14:06+00:00"
-    },
-    {
-      "id": "3937534401502915344",
+      "id": "3624279956892766897",
       "title": "The new management playbook for AI: How to move faster and create more value",
       "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-new-management-playbook-for-ai-how-to-move-faster-and-create-more-value",
       "source": "McKinsey",
@@ -1291,7 +1546,7 @@
       "date": "2026-08-28T00:00:00+00:00"
     },
     {
-      "id": "5793969811633209539",
+      "id": "5692441855749007348",
       "title": "A startup claims it’s found a drug to make your blood young",
       "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
       "source": "MIT Tech Review",
@@ -1302,7 +1557,7 @@
       "date": "2026-08-27T19:48:13+00:00"
     },
     {
-      "id": "1541973767631281173",
+      "id": "2400242449505992591",
       "title": "Chinese Routers Sold Worldwide Contain Backdoors",
       "url": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
       "source": "Dark Reading",
@@ -1313,18 +1568,7 @@
       "date": "2026-08-27T19:31:45+00:00"
     },
     {
-      "id": "7922976761073568560",
-      "title": "Google’s AI note-taking app now allows you to interact with books",
-      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
-      "source": "The Verge AI",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-27T19:30:00+00:00"
-    },
-    {
-      "id": "7892134651524288627",
+      "id": "956513948264096873",
       "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
       "url": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
       "source": "Dark Reading",
@@ -1336,7 +1580,7 @@
       "date": "2026-08-27T17:25:09+00:00"
     },
     {
-      "id": "1004224339117716158",
+      "id": "4647038278957759910",
       "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
       "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
       "source": "MIT Tech Review",
@@ -1347,7 +1591,7 @@
       "date": "2026-08-27T12:10:00+00:00"
     },
     {
-      "id": "4682138618405210207",
+      "id": "4954259587449875695",
       "title": "Russian Hackers Phish EU Officials Over Messaging Apps",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
       "source": "Dark Reading",
@@ -1358,7 +1602,7 @@
       "date": "2026-08-27T11:16:01+00:00"
     },
     {
-      "id": "4714009852250730577",
+      "id": "3832909476551469854",
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "source": "Krebs on Security",
@@ -1371,7 +1615,7 @@
       "date": "2026-08-27T11:04:15+00:00"
     },
     {
-      "id": "5917356914283210183",
+      "id": "5113153891497126150",
       "title": "Spot New Tech Skills Emerging From the Workforce",
       "url": "https://sloanreview.mit.edu/article/spot-new-tech-skills-emerging-from-the-workforce/",
       "source": "MIT Sloan",
@@ -1382,7 +1626,7 @@
       "date": "2026-08-27T11:00:10+00:00"
     },
     {
-      "id": "1964205504903437677",
+      "id": "3531271044423376336",
       "title": "Is Slate Auto’s new electric truck the EV Americans need?",
       "url": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
       "source": "MIT Tech Review",
@@ -1392,7 +1636,7 @@
       "date": "2026-08-27T10:00:00+00:00"
     },
     {
-      "id": "7522624503458357041",
+      "id": "1549352226500070645",
       "title": "LLM-Based Social Engineering Scams",
       "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
       "source": "Schneier on Security",
@@ -1404,7 +1648,7 @@
       "date": "2026-08-27T09:56:56+00:00"
     },
     {
-      "id": "8000298000708864194",
+      "id": "5755707999539174615",
       "title": "AI-driven OSINT in the wrong hands – and why everyone could be a target for fraud",
       "url": "https://www.welivesecurity.com/en/privacy/ai-powered-osint-why-everyone-viable-target-fraud/",
       "source": "ESET Blog",
@@ -1415,7 +1659,7 @@
       "date": "2026-08-27T09:00:00+00:00"
     },
     {
-      "id": "2411980583567134710",
+      "id": "4000552115170857718",
       "title": "An update on US consumer sentiment: Holiday budgeting begins",
       "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/the-state-of-the-us-consumer",
       "source": "McKinsey",
@@ -1425,7 +1669,7 @@
       "date": "2026-08-27T00:00:00+00:00"
     },
     {
-      "id": "3875108784053730278",
+      "id": "8785218471225519763",
       "title": "Pacsun’s Gen Z playbook: Listen, learn, and let go",
       "url": "https://www.mckinsey.com/industries/retail/our-insights/pacsuns-gen-z-playbook-listen-learn-and-let-go",
       "source": "McKinsey",
@@ -1436,7 +1680,7 @@
       "date": "2026-08-27T00:00:00+00:00"
     },
     {
-      "id": "3991583561051437784",
+      "id": "8394908706810818442",
       "title": "Consumers don’t trust AI advice. They turn to it anyway.",
       "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/consumers-dont-trust-ai-advice-they-turn-to-it-anyway",
       "source": "McKinsey",
@@ -1447,7 +1691,7 @@
       "date": "2026-08-27T00:00:00+00:00"
     },
     {
-      "id": "7434667967185488039",
+      "id": "6742294096893953079",
       "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
       "source": "Dark Reading",
@@ -1459,7 +1703,7 @@
       "date": "2026-08-26T21:33:06+00:00"
     },
     {
-      "id": "7615909265652385003",
+      "id": "2942557273226874990",
       "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
       "url": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
       "source": "Dark Reading",
@@ -1471,7 +1715,7 @@
       "date": "2026-08-26T19:54:34+00:00"
     },
     {
-      "id": "1233902061935441307",
+      "id": "3500695611010414312",
       "title": "Red Flags That Expose Fake North Korean IT Workers",
       "url": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
       "source": "Dark Reading",
@@ -1481,19 +1725,7 @@
       "date": "2026-08-26T19:21:24+00:00"
     },
     {
-      "id": "8945156536175885111",
-      "title": "The inside story on why OpenAI agents hacked Hugging Face",
-      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-      "source": "MIT Tech Review",
-      "topics": [
-        "AI",
-        "IT",
-        "정보보안"
-      ],
-      "date": "2026-08-26T19:00:00+00:00"
-    },
-    {
-      "id": "456222653790822464",
+      "id": "5599721202559836168",
       "title": "Android Malware Hijacks Update System for Car Head Units",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
       "source": "Dark Reading",
@@ -1505,18 +1737,7 @@
       "date": "2026-08-26T17:33:45+00:00"
     },
     {
-      "id": "2898475723595115975",
-      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
-      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
-      "source": "MIT Tech Review",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-26T12:10:00+00:00"
-    },
-    {
-      "id": "3476711627453338521",
+      "id": "6803982085767720463",
       "title": "Spyware for Babies",
       "url": "https://www.schneier.com/blog/archives/2026/08/spyware-for-babies.html",
       "source": "Schneier on Security",
@@ -1527,7 +1748,7 @@
       "date": "2026-08-26T12:05:52+00:00"
     },
     {
-      "id": "6934109021024538443",
+      "id": "3967532354892261728",
       "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
       "url": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
       "source": "Dark Reading",
@@ -1539,7 +1760,7 @@
       "date": "2026-08-26T11:33:40+00:00"
     },
     {
-      "id": "4603112887388547262",
+      "id": "7185959911417855456",
       "title": "Building on AI’s Unfinished Foundation",
       "url": "https://sloanreview.mit.edu/article/building-on-ais-unfinished-foundation/",
       "source": "MIT Sloan",
@@ -1550,29 +1771,7 @@
       "date": "2026-08-26T11:00:49+00:00"
     },
     {
-      "id": "5895944921426874030",
-      "title": "Raised on AI",
-      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
-      "source": "MIT Tech Review",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-26T09:00:00+00:00"
-    },
-    {
-      "id": "7108094565784218308",
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "source": "MIT Tech Review",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-26T09:00:00+00:00"
-    },
-    {
-      "id": "3553126248060555792",
+      "id": "671993695134016640",
       "title": "Interpol's Jackal IV Disrupts West African Crime Infrastructure",
       "url": "https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure",
       "source": "Dark Reading",
@@ -1582,7 +1781,7 @@
       "date": "2026-08-26T08:30:00+00:00"
     },
     {
-      "id": "3847621582058942076",
+      "id": "8839350112237581243",
       "title": "Nigeria Looks to Sovereign Cloud for Cyber, National Security",
       "url": "https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security",
       "source": "Dark Reading",
@@ -1593,7 +1792,7 @@
       "date": "2026-08-26T08:00:00+00:00"
     },
     {
-      "id": "3523142270400043535",
+      "id": "273255548754505044",
       "title": "Cross-border payments: Out of the commodity trap, into the future",
       "url": "https://www.mckinsey.com/industries/financial-services/our-insights/cross-border-payments-out-of-the-commodity-trap-into-the-future",
       "source": "McKinsey",
@@ -1603,7 +1802,7 @@
       "date": "2026-08-26T00:00:00+00:00"
     },
     {
-      "id": "8619801861216633596",
+      "id": "3227057165099795937",
       "title": "The decision dividend: How AI creates economic value",
       "url": "https://www.mckinsey.com/industries/industrials/our-insights/the-decision-dividend-how-ai-creates-economic-value",
       "source": "McKinsey",
@@ -1614,7 +1813,7 @@
       "date": "2026-08-26T00:00:00+00:00"
     },
     {
-      "id": "8999201942980128296",
+      "id": "4910163813088794382",
       "title": "Your AI agents need performance management, too",
       "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/your-ai-agents-need-performance-management-too",
       "source": "McKinsey",
@@ -1626,7 +1825,7 @@
       "date": "2026-08-26T00:00:00+00:00"
     },
     {
-      "id": "3585363932222246773",
+      "id": "8355893095781571935",
       "title": "Hidden Prompts Trick AI Into False Email Summaries",
       "url": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
       "source": "Dark Reading",
@@ -1638,7 +1837,7 @@
       "date": "2026-08-25T21:08:55+00:00"
     },
     {
-      "id": "1199671039133686877",
+      "id": "3914957053422671174",
       "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
       "url": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
       "source": "Dark Reading",
@@ -1650,7 +1849,7 @@
       "date": "2026-08-25T19:50:16+00:00"
     },
     {
-      "id": "6517026510924335372",
+      "id": "1199614917155413270",
       "title": "Is Cyber Facing an Affordability Crisis?",
       "url": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
       "source": "Dark Reading",
@@ -1662,7 +1861,7 @@
       "date": "2026-08-25T14:53:13+00:00"
     },
     {
-      "id": "4651799626205954146",
+      "id": "6934056754942488692",
       "title": "Ask Sanyin: How Do I Communicate That I’ve Grown and Changed?",
       "url": "https://sloanreview.mit.edu/article/ask-sanyin-how-do-i-communicate-that-ive-grown-and-changed/",
       "source": "MIT Sloan",
@@ -1673,7 +1872,7 @@
       "date": "2026-08-25T11:00:14+00:00"
     },
     {
-      "id": "3868052043634852091",
+      "id": "868253853599559952",
       "title": "Black Hat State of Security Vendors",
       "url": "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
       "source": "Schneier on Security",
@@ -1685,7 +1884,7 @@
       "date": "2026-08-25T10:54:50+00:00"
     },
     {
-      "id": "2162889728167764535",
+      "id": "1443956635146904951",
       "title": "Can upstream oil and gas produce value from AI’s $230 billion pay zone?",
       "url": "https://www.mckinsey.com/industries/oil-and-gas/our-insights/can-upstream-oil-and-gas-produce-value-from-ais-230-billion-dollar-pay-zone",
       "source": "McKinsey",
@@ -1696,19 +1895,7 @@
       "date": "2026-08-25T00:00:00+00:00"
     },
     {
-      "id": "7819773912152632996",
-      "title": "Global Economics Intelligence executive summary, July 2026",
-      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
-      "source": "McKinsey",
-      "topics": [
-        "AI",
-        "금융(국제)",
-        "IT"
-      ],
-      "date": "2026-08-25T00:00:00+00:00"
-    },
-    {
-      "id": "5201937375546407580",
+      "id": "8663827274292755181",
       "title": "The state of AI in 2026: On the road to ROI",
       "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
       "source": "McKinsey",
@@ -1720,7 +1907,19 @@
       "date": "2026-08-25T00:00:00+00:00"
     },
     {
-      "id": "4865666556221493521",
+      "id": "9035293471980975145",
+      "title": "Global Economics Intelligence executive summary, July 2026",
+      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
+      "source": "McKinsey",
+      "topics": [
+        "AI",
+        "금융(국제)",
+        "IT"
+      ],
+      "date": "2026-08-25T00:00:00+00:00"
+    },
+    {
+      "id": "3645682871763052622",
       "title": "McKinsey’s Fangning Zhang on China’s growing role in life sciences R&D",
       "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/mckinseys-fangning-zhang-on-chinas-growing-role-in-life-sciences-r-and-d",
       "source": "McKinsey",
@@ -1731,7 +1930,7 @@
       "date": "2026-08-25T00:00:00+00:00"
     },
     {
-      "id": "1952268453382198037",
+      "id": "6339612929485555065",
       "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
       "url": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
       "source": "Dark Reading",
@@ -1742,53 +1941,7 @@
       "date": "2026-08-24T21:46:55+00:00"
     },
     {
-      "id": "7671674679141907815",
-      "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
-      "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
-      "source": "Dark Reading",
-      "topics": [
-        "AI",
-        "정보보안"
-      ],
-      "date": "2026-08-24T20:51:27+00:00"
-    },
-    {
-      "id": "8661225973914424579",
-      "title": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
-      "url": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
-      "source": "Dark Reading",
-      "topics": [
-        "IT",
-        "정보보안"
-      ],
-      "date": "2026-08-24T15:02:32+00:00"
-    },
-    {
-      "id": "1971743632666254364",
-      "title": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-      "url": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
-      "source": "Dark Reading",
-      "topics": [
-        "금융(국제)",
-        "IT",
-        "정보보안"
-      ],
-      "date": "2026-08-24T14:34:59+00:00"
-    },
-    {
-      "id": "8145034507012688343",
-      "title": "The Vulnerability Gap: Why Discovery Is Outrunning Repair",
-      "url": "https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair",
-      "source": "Dark Reading",
-      "topics": [
-        "AI",
-        "IT",
-        "정보보안"
-      ],
-      "date": "2026-08-24T14:00:00+00:00"
-    },
-    {
-      "id": "3181667755822217098",
+      "id": "531128244564272822",
       "title": "Develop Your Team’s Social Capital, Not Just Their Skills",
       "url": "https://sloanreview.mit.edu/article/develop-your-teams-social-capital-not-just-their-skills/",
       "source": "MIT Sloan",
@@ -1800,18 +1953,7 @@
       "date": "2026-08-24T11:00:55+00:00"
     },
     {
-      "id": "8568224283756737756",
-      "title": "Criminal Deception in Silicon Valley",
-      "url": "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html",
-      "source": "Schneier on Security",
-      "topics": [
-        "IT",
-        "컨설팅"
-      ],
-      "date": "2026-08-24T10:38:29+00:00"
-    },
-    {
-      "id": "1701467114214894640",
+      "id": "8190426983570795975",
       "title": "Where AI agents pay off: A practical guide to the economics of agentic workflows",
       "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/where-ai-agents-pay-off-a-practical-guide-to-the-economics-of-agentic-workflows",
       "source": "McKinsey",
@@ -1821,51 +1963,7 @@
       "date": "2026-08-24T00:00:00+00:00"
     },
     {
-      "id": "3054021635494857863",
-      "title": "Friday Squid Blogging: Neon Flying Squid",
-      "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-neon-flying-squid.html",
-      "source": "Schneier on Security",
-      "topics": [
-        "IT"
-      ],
-      "date": "2026-08-21T21:07:20+00:00"
-    },
-    {
-      "id": "8362394108258641860",
-      "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
-      "url": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
-      "source": "Dark Reading",
-      "topics": [
-        "AI",
-        "정보보안"
-      ],
-      "date": "2026-08-21T20:24:42+00:00"
-    },
-    {
-      "id": "5255917998280766454",
-      "title": "OWASP Flags Top AI Skill Risks in New Security Blueprint",
-      "url": "https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint",
-      "source": "Dark Reading",
-      "topics": [
-        "AI",
-        "IT",
-        "정보보안"
-      ],
-      "date": "2026-08-21T17:36:53+00:00"
-    },
-    {
-      "id": "3651980579530787857",
-      "title": "AI Is Learning to Write Genetic Code",
-      "url": "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html",
-      "source": "Schneier on Security",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-08-21T16:51:50+00:00"
-    },
-    {
-      "id": "6495569316353166471",
+      "id": "6956511668590877136",
       "title": "Beyond the copilot: Scaling the agentic product development life cycle",
       "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/beyond-the-copilot-scaling-the-agentic-product-development-life-cycle",
       "source": "McKinsey",
@@ -1876,7 +1974,7 @@
       "date": "2026-08-21T00:00:00+00:00"
     },
     {
-      "id": "3963382402780548972",
+      "id": "3722679066549068560",
       "title": "Reckitt’s transformation: Three moves, one strategic reset",
       "url": "https://www.mckinsey.com/industries/retail/how-we-help-clients/reckitts-transformation-three-moves-one-strategic-reset",
       "source": "McKinsey",
@@ -1888,7 +1986,7 @@
       "date": "2026-08-21T00:00:00+00:00"
     },
     {
-      "id": "7332042252211706999",
+      "id": "5578846581330525160",
       "title": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
       "url": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/",
       "source": "MIT Sloan",
@@ -1899,7 +1997,7 @@
       "date": "2026-08-20T11:00:25+00:00"
     },
     {
-      "id": "9038953310009876535",
+      "id": "4356463314380277622",
       "title": "Earning and sustaining trust in the age of AI",
       "url": "https://www.mckinsey.com/industries/financial-services/our-insights/earning-and-sustaining-trust-in-the-age-of-ai",
       "source": "McKinsey",
@@ -1910,7 +2008,7 @@
       "date": "2026-08-20T00:00:00+00:00"
     },
     {
-      "id": "6983716442660341977",
+      "id": "360690991224795653",
       "title": "The Five Inclusive Behaviors Board Chairs Overlook",
       "url": "https://sloanreview.mit.edu/article/the-five-inclusive-behaviors-board-chairs-overlook/",
       "source": "MIT Sloan",
@@ -1921,7 +2019,7 @@
       "date": "2026-08-19T11:00:59+00:00"
     },
     {
-      "id": "562933215262823634",
+      "id": "7197104812230725273",
       "title": "Advancing American healthcare: An interview with Seema Verma",
       "url": "https://www.mckinsey.com/industries/public-sector/our-insights/advancing-american-healthcare-an-interview-with-seema-verma",
       "source": "McKinsey",
@@ -1933,7 +2031,7 @@
       "date": "2026-08-19T00:00:00+00:00"
     },
     {
-      "id": "7701680595384326724",
+      "id": "8340847811498110239",
       "title": "Some hard questions about a world of plenty",
       "url": "https://www.mckinsey.com/mgi/our-research/a-century-of-plenty/podcast/some-hard-questions-about-a-world-of-plenty",
       "source": "McKinsey",
@@ -1943,7 +2041,7 @@
       "date": "2026-08-19T00:00:00+00:00"
     },
     {
-      "id": "2487077244165539207",
+      "id": "6867611088013415621",
       "title": "Michelle Williams on why public health is public wealth",
       "url": "https://www.mckinsey.com/mhi/our-insights/michelle-williams-on-why-public-health-is-public-wealth",
       "source": "McKinsey",
@@ -1953,7 +2051,7 @@
       "date": "2026-08-19T00:00:00+00:00"
     },
     {
-      "id": "8185013811573445924",
+      "id": "5573868531640320268",
       "title": "What Gets Your Best Employees to Stay",
       "url": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/",
       "source": "MIT Sloan",
@@ -1964,7 +2062,7 @@
       "date": "2026-08-18T11:00:26+00:00"
     },
     {
-      "id": "6978743500435419119",
+      "id": "7715963106546705075",
       "title": "How can the public sector meet the AI moment?",
       "url": "https://www.mckinsey.com/industries/public-sector/our-insights/rewiring-public-sector",
       "source": "McKinsey",
@@ -1974,7 +2072,7 @@
       "date": "2026-08-18T00:00:00+00:00"
     },
     {
-      "id": "3175341339788762335",
+      "id": "2729098910585665541",
       "title": "Reinventing the European pulp and paper operating model",
       "url": "https://www.mckinsey.com/industries/packaging-and-paper/our-insights/reinventing-the-european-pulp-and-paper-operating-model",
       "source": "McKinsey",
@@ -1986,7 +2084,7 @@
       "date": "2026-08-18T00:00:00+00:00"
     },
     {
-      "id": "1184994922639179606",
+      "id": "6212654407092533364",
       "title": "The Power of Opportunity Mindset in Hiring",
       "url": "https://sloanreview.mit.edu/article/the-power-of-opportunity-mindset-in-hiring/",
       "source": "MIT Sloan",
@@ -1997,7 +2095,7 @@
       "date": "2026-08-17T11:00:28+00:00"
     },
     {
-      "id": "6434719689324852809",
+      "id": "1044766187627387125",
       "title": "How QR-code phishing can slip past corporate security measures",
       "url": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
       "source": "ESET Blog",
@@ -2008,7 +2106,7 @@
       "date": "2026-08-17T09:00:00+00:00"
     },
     {
-      "id": "7181463518592112370",
+      "id": "985738892177954914",
       "title": "Governing AI with intention in the social impact sector",
       "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/governing-ai-with-intention-in-the-social-impact-sector",
       "source": "McKinsey",
@@ -2020,7 +2118,7 @@
       "date": "2026-08-17T00:00:00+00:00"
     },
     {
-      "id": "7144345175391727019",
+      "id": "7150239104639621581",
       "title": "Who’s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "source": "Krebs on Security",
@@ -2031,7 +2129,7 @@
       "date": "2026-08-14T11:24:35+00:00"
     },
     {
-      "id": "2632271779237333921",
+      "id": "5224291222035532154",
       "title": "Black Hat USA 2026: Will vulnerability discovery eventually decline in the AI era?",
       "url": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
       "source": "ESET Blog",
@@ -2043,7 +2141,7 @@
       "date": "2026-08-13T14:30:00+00:00"
     },
     {
-      "id": "2274456161358754808",
+      "id": "6744622769993996903",
       "title": "Why Water Management Is a Strategic Concern",
       "url": "https://sloanreview.mit.edu/article/why-water-management-is-a-strategic-concern/",
       "source": "MIT Sloan",
@@ -2054,7 +2152,7 @@
       "date": "2026-08-13T11:00:28+00:00"
     },
     {
-      "id": "1100838441847141922",
+      "id": "4264630173107235064",
       "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
       "url": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
       "source": "ESET Blog",
@@ -2065,7 +2163,7 @@
       "date": "2026-08-13T09:00:00+00:00"
     },
     {
-      "id": "892809969092069984",
+      "id": "166943107503083332",
       "title": "Driving value with an investor mindset",
       "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/driving-value-with-an-investor-mindset",
       "source": "McKinsey",
@@ -2075,7 +2173,7 @@
       "date": "2026-08-13T00:00:00+00:00"
     },
     {
-      "id": "205217717970585359",
+      "id": "7817508451811590943",
       "title": "How premium leisure travel is rewriting airline economics",
       "url": "https://www.mckinsey.com/industries/travel/our-insights/how-premium-leisure-travel-is-rewriting-airline-economics",
       "source": "McKinsey",
@@ -2086,17 +2184,7 @@
       "date": "2026-08-13T00:00:00+00:00"
     },
     {
-      "id": "6159707262545293385",
-      "title": "Putting innovation—and patients—in focus: A conversation with Astellas Pharma CEO Naoki Okamura",
-      "url": "https://www.mckinsey.com/industries/life-sciences/our-insights/putting-innovation-and-patients-in-focus-a-conversation-with-astellas-pharma-ceo-naoki-okamura",
-      "source": "McKinsey",
-      "topics": [
-        "IT"
-      ],
-      "date": "2026-08-13T00:00:00+00:00"
-    },
-    {
-      "id": "4697922601531133061",
+      "id": "8942861894845786776",
       "title": "How instant payments are transforming the financial landscape",
       "url": "https://www.mckinsey.com/industries/financial-services/our-insights/how-instant-payments-are-transforming-the-financial-landscape",
       "source": "McKinsey",
@@ -2107,7 +2195,7 @@
       "date": "2026-08-13T00:00:00+00:00"
     },
     {
-      "id": "7013465255149830976",
+      "id": "4407459879827198964",
       "title": "Brilliant Moves: Coffee with Suzano CEO Beto Abreu",
       "url": "https://www.mckinsey.com/industries/packaging-and-paper/our-insights/brilliant-moves-coffee-with-suzano-ceo-beto-abreu",
       "source": "McKinsey",
@@ -2118,7 +2206,7 @@
       "date": "2026-08-13T00:00:00+00:00"
     },
     {
-      "id": "9004126624527180948",
+      "id": "7772069007925769370",
       "title": "Black Hat USA 2026: AI is racing ahead of cybersecurity controls",
       "url": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-ai-racing-cybersecurity-controls/",
       "source": "ESET Blog",
@@ -2130,17 +2218,7 @@
       "date": "2026-08-12T13:28:07+00:00"
     },
     {
-      "id": "999401850035687527",
-      "title": "The untapped prize: Asia’s high-net-worth insurance market",
-      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-untapped-prize-asias-high-net-worth-insurance-market",
-      "source": "McKinsey",
-      "topics": [
-        "IT"
-      ],
-      "date": "2026-08-12T00:00:00+00:00"
-    },
-    {
-      "id": "1246810482470072550",
+      "id": "5761127737678288737",
       "title": "Microsoft Plugs Nearly 400 Security Holes",
       "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
       "source": "Krebs on Security",
@@ -2152,7 +2230,7 @@
       "date": "2026-08-11T21:28:35+00:00"
     },
     {
-      "id": "5293922611479061519",
+      "id": "5225741399619843246",
       "title": "How to End Things Well",
       "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/",
       "source": "MIT Sloan",
@@ -2163,7 +2241,7 @@
       "date": "2026-08-11T11:00:17+00:00"
     },
     {
-      "id": "5237759673826225129",
+      "id": "213488786253272903",
       "title": "How to Avoid Innovation One-Hit Wonders",
       "url": "https://sloanreview.mit.edu/article/how-to-avoid-innovation-one-hit-wonders/",
       "source": "MIT Sloan",
@@ -2175,7 +2253,7 @@
       "date": "2026-08-10T11:00:41+00:00"
     },
     {
-      "id": "7797484466935515286",
+      "id": "1948886329576646404",
       "title": "Are AI tutors safe for your kids?",
       "url": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
       "source": "ESET Blog",
@@ -2186,7 +2264,7 @@
       "date": "2026-08-10T09:00:00+00:00"
     },
     {
-      "id": "1757110118693617113",
+      "id": "5916891050650070062",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "source": "Krebs on Security",
@@ -2198,7 +2276,7 @@
       "date": "2026-08-06T17:00:56+00:00"
     },
     {
-      "id": "4357755046742398985",
+      "id": "9044197721019770183",
       "title": "Stop Prompting AI. Start Directing It",
       "url": "https://sloanreview.mit.edu/article/stop-prompting-ai-start-directing-it/",
       "source": "MIT Sloan",
@@ -2210,31 +2288,7 @@
       "date": "2026-08-05T11:00:54+00:00"
     },
     {
-      "id": "4061841100413729021",
-      "title": "The Elusiveness of Merit-Based Hiring",
-      "url": "https://sloanreview.mit.edu/article/the-elusiveness-of-merit-based-hiring/",
-      "source": "MIT Sloan",
-      "topics": [
-        "AI",
-        "IT",
-        "컨설팅"
-      ],
-      "date": "2026-08-04T11:00:00+00:00"
-    },
-    {
-      "id": "5760121974506169009",
-      "title": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
-      "url": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness/",
-      "source": "MIT Sloan",
-      "topics": [
-        "AI",
-        "IT",
-        "컨설팅"
-      ],
-      "date": "2026-08-03T11:00:54+00:00"
-    },
-    {
-      "id": "6089140023066894500",
+      "id": "8380450646645302785",
       "title": "This month in security with Tony Anscombe – July 2026 edition",
       "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
       "source": "ESET Blog",
@@ -2246,7 +2300,7 @@
       "date": "2026-07-31T14:14:15+00:00"
     },
     {
-      "id": "9156531410679848203",
+      "id": "5089259670539730610",
       "title": "Read This Before You Buy That TV Streaming Stick",
       "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "source": "Krebs on Security",
@@ -2258,18 +2312,7 @@
       "date": "2026-07-30T16:49:00+00:00"
     },
     {
-      "id": "1823877892237907059",
-      "title": "How ﻿a Healthy ﻿Work Culture﻿ Help﻿s﻿ ﻿Trauma Survivors",
-      "url": "https://sloanreview.mit.edu/article/how-a-healthy-work-culture-helps-trauma-survivors/",
-      "source": "MIT Sloan",
-      "topics": [
-        "IT",
-        "컨설팅"
-      ],
-      "date": "2026-07-30T11:00:24+00:00"
-    },
-    {
-      "id": "3739483754854533460",
+      "id": "131406452503466041",
       "title": "Beyond the screenshot: Why you should verify what you see",
       "url": "https://www.welivesecurity.com/en/cybersecurity/beyond-screenshot-why-verify-you-see/",
       "source": "ESET Blog",
@@ -2279,18 +2322,7 @@
       "date": "2026-07-30T08:50:00+00:00"
     },
     {
-      "id": "6620370709327962500",
-      "title": "﻿The Link Between Explicit AI-Generated Images and Offline Crime",
-      "url": "https://sloanreview.mit.edu/article/the-link-between-explicit-ai-generated-images-and-offline-crime/",
-      "source": "MIT Sloan",
-      "topics": [
-        "AI",
-        "IT"
-      ],
-      "date": "2026-07-29T11:00:40+00:00"
-    },
-    {
-      "id": "7002215237565617168",
+      "id": "8176095604818157078",
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "source": "Krebs on Security",
@@ -2301,7 +2333,7 @@
       "date": "2026-07-22T01:10:38+00:00"
     },
     {
-      "id": "6166071998703458295",
+      "id": "7488588407289522455",
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "source": "Krebs on Security",
@@ -2313,7 +2345,7 @@
       "date": "2026-07-14T19:22:42+00:00"
     },
     {
-      "id": "7004295678622495272",
+      "id": "4591208297241853490",
       "title": "Forgotten UEFI shims undermining Secure Boot",
       "url": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
       "source": "ESET Blog",
@@ -2324,7 +2356,7 @@
       "date": "2026-07-14T08:53:00+00:00"
     },
     {
-      "id": "3329850744912525917",
+      "id": "670786483643548825",
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "source": "Krebs on Security",
@@ -2335,7 +2367,7 @@
       "date": "2026-07-13T15:03:28+00:00"
     },
     {
-      "id": "8243896231429951464",
+      "id": "1124324342598267878",
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "source": "Krebs on Security",
@@ -2347,7 +2379,7 @@
       "date": "2026-07-08T12:31:39+00:00"
     },
     {
-      "id": "5618993459273331286",
+      "id": "6858730871401783026",
       "title": "ESET Threat Report H1 2026",
       "url": "https://www.welivesecurity.com/en/eset-research/eset-threat-report-h1-2026/",
       "source": "ESET Blog",
@@ -2357,7 +2389,7 @@
       "date": "2026-07-08T08:45:00+00:00"
     },
     {
-      "id": "8842249187188613431",
+      "id": "2574216288363511247",
       "title": "Cyber readiness for SMBs: Getting the basics right",
       "url": "https://www.welivesecurity.com/en/business-security/cyber-readiness-smbs-getting-basics-right/",
       "source": "ESET Blog",
@@ -2367,20 +2399,7 @@
       "date": "2026-07-03T12:36:41+00:00"
     },
     {
-      "id": "7736866651144183480",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "source": "Krebs on Security",
-      "topics": [
-        "AI",
-        "금융(국제)",
-        "IT",
-        "정보보안"
-      ],
-      "date": "2026-07-02T19:27:33+00:00"
-    },
-    {
-      "id": "2983368481022958247",
+      "id": "122522811900557214",
       "title": "This month in security with Tony Anscombe – June 2026 edition",
       "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-june-2026/",
       "source": "ESET Blog",
@@ -2391,7 +2410,7 @@
       "date": "2026-06-30T14:39:37+00:00"
     },
     {
-      "id": "3043318299321984706",
+      "id": "5849796918829370092",
       "title": "Inside the inbox: Why cybercriminals want to break into your email account",
       "url": "https://www.welivesecurity.com/en/cybersecurity/inside-inbox-cybercriminals-want-break-email-account/",
       "source": "ESET Blog",
@@ -2402,7 +2421,7 @@
       "date": "2026-06-29T08:50:00+00:00"
     },
     {
-      "id": "1702362550546368888",
+      "id": "6071916449305388692",
       "title": "SMB cyber readiness: the road to resilience starts here",
       "url": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
       "source": "ESET Blog",
@@ -2413,7 +2432,7 @@
       "date": "2026-06-26T08:50:00+00:00"
     },
     {
-      "id": "2404451510759000269",
+      "id": "5380484150880983924",
       "title": "Gamaredon in 2025: Leveraging tunnels, workers, dead drops, and new alliances",
       "url": "https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/",
       "source": "ESET Blog",
@@ -2423,7 +2442,7 @@
       "date": "2026-06-25T08:45:00+00:00"
     },
     {
-      "id": "3074727465024640796",
+      "id": "5969862146550489790",
       "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
       "url": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
       "source": "ESET Blog",
@@ -2433,7 +2452,7 @@
       "date": "2026-06-24T12:35:24+00:00"
     },
     {
-      "id": "209794113912236570",
+      "id": "3542614047472905099",
       "title": "Killing me gently: Inside Gentlemen’s EDR killer framework",
       "url": "https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/",
       "source": "ESET Blog",
@@ -2444,7 +2463,7 @@
       "date": "2026-06-18T09:46:32+00:00"
     },
     {
-      "id": "7539048925036875963",
+      "id": "3427659744989934279",
       "title": "Protecting legacy OT systems against modern cyberthreats",
       "url": "https://www.welivesecurity.com/en/critical-infrastructure/protecting-legacy-ot-systems-modern-threats/",
       "source": "ESET Blog",
@@ -2456,7 +2475,7 @@
       "date": "2026-06-17T08:45:00+00:00"
     },
     {
-      "id": "3863289041948296125",
+      "id": "5361390523259651972",
       "title": "FishMonger’s arsenal upgraded: SprySOCKS for Windows",
       "url": "https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/",
       "source": "ESET Blog",
@@ -2466,7 +2485,7 @@
       "date": "2026-06-16T08:54:04+00:00"
     },
     {
-      "id": "6356971991568809226",
+      "id": "118125238855787160",
       "title": "EvilTokens: A phishing attack that doesn’t steal your password",
       "url": "https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/",
       "source": "ESET Blog",
@@ -2477,7 +2496,7 @@
       "date": "2026-06-15T08:55:00+00:00"
     },
     {
-      "id": "795503029457629003",
+      "id": "3732881392340458576",
       "title": "OceanLotus: From external espionage to domestic targeting",
       "url": "https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/",
       "source": "ESET Blog",
@@ -2487,7 +2506,7 @@
       "date": "2026-06-11T08:45:00+00:00"
     },
     {
-      "id": "6606227568840453179",
+      "id": "7816912349742324497",
       "title": "Unpacking SMB cyber-readiness – and what makes or breaks it",
       "url": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-what-makes-breaks-it/",
       "source": "ESET Blog",
@@ -2498,7 +2517,7 @@
       "date": "2026-06-10T09:00:00+00:00"
     },
     {
-      "id": "5328366681973417461",
+      "id": "8440085776016174653",
       "title": "Cybercriminals: the 'auditors' you never hired",
       "url": "https://www.welivesecurity.com/en/business-security/cybercriminals-auditors-never-hired/",
       "source": "ESET Blog",
@@ -2508,7 +2527,7 @@
       "date": "2026-06-09T08:50:00+00:00"
     },
     {
-      "id": "1875764376983245796",
+      "id": "6169303147298457142",
       "title": "Lessons for life: Why children’s data is a long-term identity risk",
       "url": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
       "source": "ESET Blog",
@@ -2519,7 +2538,7 @@
       "date": "2026-06-03T08:50:00+00:00"
     },
     {
-      "id": "5230319084439808390",
+      "id": "365638768475726214",
       "title": "This month in security with Tony Anscombe – May 2026 edition",
       "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
       "source": "ESET Blog",
@@ -2531,7 +2550,7 @@
       "date": "2026-05-29T07:30:00+00:00"
     },
     {
-      "id": "5103632706158480650",
+      "id": "3611191032954885121",
       "title": "ESET APT Activity Report Q4 2025–Q1 2026",
       "url": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
       "source": "ESET Blog",
@@ -2541,7 +2560,7 @@
       "date": "2026-05-28T08:45:00+00:00"
     },
     {
-      "id": "13171489946135588",
+      "id": "5799556252794703379",
       "title": "What to consider before asking an AI chatbot for health advice",
       "url": "https://www.welivesecurity.com/en/privacy/what-consider-asking-ai-chatbot-health-advice/",
       "source": "ESET Blog",
@@ -2554,7 +2573,7 @@
       "date": "2026-05-27T08:50:00+00:00"
     },
     {
-      "id": "3232545883158538122",
+      "id": "3369899782823223923",
       "title": "BTMOB: A stealthy RAT burrowing deep into Android devices",
       "url": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
       "source": "ESET Blog",
@@ -2566,7 +2585,7 @@
       "date": "2026-05-26T08:50:00+00:00"
     },
     {
-      "id": "3853269597545750479",
+      "id": "7142586044856640300",
       "title": "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
       "url": "https://www.welivesecurity.com/en/cybersecurity/foul-play-fake-fifa-world-cup-websites-tickets/",
       "source": "ESET Blog",
@@ -2575,16 +2594,6 @@
         "개인정보보호"
       ],
       "date": "2026-05-22T08:50:00+00:00"
-    },
-    {
-      "id": "8018795952878080240",
-      "title": "Webworm: New burrowing techniques",
-      "url": "https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/",
-      "source": "ESET Blog",
-      "topics": [
-        "IT"
-      ],
-      "date": "2026-05-20T08:40:00+00:00"
     }
   ]
 }
